@@ -23,6 +23,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.8' }
 " or                                , { 'branch': '0.1.x' }
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " Настройки для каждого плагина
@@ -228,6 +229,43 @@ nnoremap <leader>t :ToggleTerm<CR>
 set laststatus=2 " Всегда отображать строку состояния
 set statusline=%f%m%r%h%w\ [%{&ff}]\ [%{&fileencoding}]\ [%{&fileformat}]\ [%{&filetype}]\ [%c]\ [%l/%L]\ [%p%%]
 
+" Открыть Git статус (аналог команды git status)
+nmap <leader>gs :Git<CR>
+
+" Добавить файл в индекс (аналог git add)
+nmap <leader>ga :Git add %<CR>
+
+" Коммит изменений (аналог git commit)
+nmap <leader>gc :Git commit<CR>
+
+" Запушить изменения (аналог git push)
+nmap <leader>gp :Git push<CR>
+
+" Запуллить изменения (аналог git pull)
+nmap <leader>gl :Git pull<CR>
+
+" Просмотр диффов для текущего файла
+nmap <leader>gd :Gdiffsplit<CR>
+
+" Быстрый доступ к истории коммитов (аналог git log)
+nmap <leader>gh :Git log<CR>
+
+" Просмотр блэйма для текущего файла
+nmap <leader>gb :Git blame<CR>
+
+" Просмотр веток
+nmap <leader>gB :Git branch<CR>
+
+nmap <leader>ga :Git add %<CR>
+
+" Восстановление изменений (аналог git checkout -- <file>)
+nmap <leader>gr :Git checkout -- %<CR>
+
+
+" Настройка для горизонтального сплита при просмотре диффов
+let g:fugitive_diff_split = 'vertical'
+
+
 set encoding=utf-8
 set expandtab
 set shiftwidth=4
@@ -235,5 +273,10 @@ set softtabstop=4
 set tabstop=4
 set number
 set termguicolors
+" Включение системного буфера обмена
 set clipboard=unnamedplus
+
+" Маппинг для копирования в системный буфер обмена с помощью Ctrl + y
+nnoremap <C-c> "+y
+vnoremap <C-c> "+y
 

@@ -1,0 +1,21 @@
+1723886480910	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1723886589642	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1723886589669	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1723886666240	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1723886782227	Sync.SyncScheduler	DEBUG	Going to sleep, doing a quick sync.
+1723886782227	Sync.Service	DEBUG	User-Agent: Firefox/129.0.1 (Linux x86_64) FxSync/1.131.0.20240813190027.desktop
+1723886782227	Sync.Service	INFO	Starting sync at 2024-08-17 16:26:22 in browser session qlyXMNhV9lc0
+1723886782228	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1723886782233	Sync.Status	INFO	Resetting Status.
+1723886782233	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1723886782234	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1723886782234	FirefoxAccounts	DEBUG	getOAuthToken enter
+1723886782235	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1723886782235	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1723886782235	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1723886782255	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/262220390/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1723886782255	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1723886782255	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1723886782255	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1723886782256	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1723886782262	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available

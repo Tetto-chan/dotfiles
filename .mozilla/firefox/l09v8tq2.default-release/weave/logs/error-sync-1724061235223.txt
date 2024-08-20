@@ -1,0 +1,36 @@
+1724060675224	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1724060675530	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1724060682943	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1724060692526	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1724060736574	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1724060759743	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1724060772544	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1724060778754	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1724060936371	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1724060980070	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1724060986048	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1724061219677	Sync.SyncScheduler	DEBUG	Going to sleep, doing a quick sync.
+1724061219678	Sync.Service	DEBUG	User-Agent: Firefox/129.0.1 (Linux x86_64) FxSync/1.131.0.20240813190027.desktop
+1724061219678	Sync.Service	INFO	Starting sync at 2024-08-19 16:53:39 in browser session IviUz6OZ990q
+1724061219678	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1724061219690	Sync.Status	INFO	Resetting Status.
+1724061219690	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1724061219691	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1724061219691	FirefoxAccounts	DEBUG	getOAuthToken enter
+1724061219692	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1724061219692	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1724061219692	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1724061234897	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1724061234897	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1724061234914	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1724061235008	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1724061235012	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1724061235019	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1724061235202	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1724061235203	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1724061235208	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/262220390/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1724061235208	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1724061235208	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1724061235209	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1724061235214	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1724061235221	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available

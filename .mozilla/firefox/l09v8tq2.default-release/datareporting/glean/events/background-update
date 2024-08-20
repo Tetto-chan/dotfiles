@@ -1,0 +1,2 @@
+{"timestamp":1776115,"category":"nimbus_events","name":"enroll_failed","extra":{"reason":"feature-conflict","experiment":"relay-integration-into-firefox-release-for-all-fxa-users","glean_timestamp":"1724136591449"}}
+{"timestamp":1776790,"category":"nimbus_events","name":"validation_failed","extra":{"feature":"addAnImageInPDF","glean_timestamp":"1724136592125","experiment":"add-an-image-to-pdf-with-alt-text-rollout","reason":"invalid-feature"}}

@@ -1,34 +1,121 @@
+" Установка leader key
 let mapleader=" " 
 
-" Инициализация vim-plug
+" Инициализация vim-plug для управления плагинами
 if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
   silent !curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   autocmd VimEnter * PlugInstall | source $MYVIMRC
 endif
+
+" Подключение плагинов
 call plug#begin('/home/tetto/.local/share/nvim/site/autoload')
-Plug 'kevinhwang91/nvim-hlslens'
+
+" Плагины для улучшения работы с Java
 Plug 'simaxme/java.nvim'
+Plug 'neovim/nvim-lspconfig'
+Plug 'mfussenegger/nvim-jdtls'
+
+" Плагины для отладки
+Plug 'mfussenegger/nvim-dap'
+Plug 'rcarriga/nvim-dap-ui'
+Plug 'nvim-neotest/nvim-nio'
+
+" Поддержка LSP и улучшения для интерфейса
+Plug 'glepnir/lspsaga.nvim'
+Plug 'neovim/nvim-lspconfig'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'kevinhwang91/nvim-hlslens'
+
+" Разное
+Plug 'akinsho/toggleterm.nvim'
 Plug 'nvim-tree/nvim-tree.lua'
 Plug 'nvimdev/dashboard-nvim'
 Plug 'edluffy/hologram.nvim'
-Plug 'akinsho/toggleterm.nvim'
-Plug 'mfussenegger/nvim-dap'
-Plug 'nvim-neotest/nvim-nio'
-Plug 'rcarriga/nvim-dap-ui'
 Plug 'wakatime/vim-wakatime'
 Plug 'navarasu/onedark.nvim'
 Plug 'glepnir/galaxyline.nvim' , { 'branch': 'main' }
 Plug 'ryanoasis/vim-devicons'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.8' }
-" or                                , { 'branch': '0.1.x' }
 Plug 'tpope/vim-fugitive'
+Plug 'folke/trouble.nvim'
+
 call plug#end()
 
+" ==========================
 " Настройки для каждого плагина
+" ==========================
 
-" Настройки для galaxyline
+" ---------------------------
+" Настройка LSP для Java
+" ---------------------------
+function! SetupJdtls()
+    let l:config = {
+    \   'cmd': ['java-lsp.sh'], " Укажите путь к скрипту запуска jdtls
+    \   'root_dir': luaeval('require("jdtls.setup").find_root({"pom.xml", "build.gradle", ".git"})'),
+    \   'settings': {
+    \     'java': {
+    \       'completion': {
+    \         'favoriteStaticMembers': [
+    \           'java.util.Objects.requireNonNull',
+    \           'java.util.Objects.requireNonNullElse'
+    \         ],
+    \       },
+    \     },
+    \   },
+    \   'init_options': {
+    \    'bundles': []
+    \   },
+    \ }
+
+    " Запуск jdtls через прямой Lua-вызов
+    lua << EOF
+    local config = vim.eval('l:config')
+    require('jdtls').start_or_attach(config)
+EOF
+endfunction
+
+" Автоматически запускать JDTLS при открытии Java файлов
+autocmd FileType java call SetupJdtls()
+
+" ---------------------------
+" Настройка Treesitter
+" ---------------------------
+lua << EOF
+require'nvim-treesitter.configs'.setup {
+  ensure_installed = "java",
+  highlight = {
+    enable = true,
+  },
+}
+EOF
+
+" ---------------------------
+" Настройка lspsaga (улучшенные интерфейсы LSP)
+" ---------------------------
+lua << EOF
+require'lspsaga'.setup {}
+EOF
+
+" ---------------------------
+" Настройки для nvim-hlslens
+" ---------------------------
+lua << EOF
+require('hlslens').setup()
+EOF
+
+" ---------------------------
+" Настройки для Trouble (отладка и навигация по ошибкам)
+" ---------------------------
+lua << EOF
+require('trouble').setup {}
+require'lspconfig'.jdtls.setup{}
+EOF
+
+" ---------------------------
+" Настройка для Galaxyline (строка состояния)
+" ---------------------------
 lua << EOF
 local gl = require('galaxyline')
 local colors = require('galaxyline.themes.colors').default
@@ -79,16 +166,17 @@ gls.left[1] = {
 }
 EOF
 
-" Установка цветовой схемы onedark
+" ---------------------------
+" Настройка цветовой схемы onedark
+" ---------------------------
 lua << EOF
 require('onedark').setup {
-    style = 'deep', -- Доступные стили: 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer', 'light'
+    style = 'deep',
     transparent = false,
     term_colors = true,
     ending_tildes = false,
     cmp_itemkind_reverse = false,
 
-    -- изменить стили
     code_style = {
         comments = 'italic',
         keywords = 'bold',
@@ -97,7 +185,6 @@ require('onedark').setup {
         variables = 'none'
     },
 
-    -- луа-модули
     diagnostics = {
         darker = true,
         undercurl = true,
@@ -107,59 +194,9 @@ require('onedark').setup {
 require('onedark').load()
 EOF
 
-" Применение цветовой схемы
-colorscheme onedark
-
-" Настройки для nvim-hlslens
-lua << EOF
-require('hlslens').setup()
-EOF
-
-" Настройки для telescope
-lua << EOF
-require('telescope').setup{
-  defaults = {
-    -- Настройки по умолчанию
-  },
-  pickers = {
-    -- Настройки для встроенных пикеров
-  },
-  extensions = {
-    -- Настройки для расширений
-  }
-}
-EOF
-
-" Настройки для dashboard-nvim
-lua << EOF
-require('dashboard').setup()
-EOF
-
-" Настройки для hologram.nvim
-lua << EOF
-require('hologram').setup{
-  auto_display = true -- Automatically display images
-}
-EOF
-
-lua << EOF
-require('toggleterm').setup{
-    size = 20,
-    open_mapping = [[<c-\>]],
-    shade_filetypes = {},
-    shade_terminals = true,
-    shading_factor = 2,
-    start_in_insert = true,
-    insert_mappings = true,
-    persist_size = true,
-    direction = 'horizontal',
-}
-EOF
-
-lua << EOF
-require('dapui').setup()
-EOF
-
+" ---------------------------
+" Настройка для nvim-tree
+" ---------------------------
 lua << EOF
 require'nvim-tree'.setup {
   view = {
@@ -206,77 +243,84 @@ require'nvim-tree'.setup {
 }
 EOF
 
-" Маппинг для открытия nvim-tree
+" ---------------------------
+" Настройка для Toggleterm (терминал)
+" ---------------------------
+lua << EOF
+require('toggleterm').setup{
+    size = 20,
+    open_mapping = [[<c-\>]],
+    shade_filetypes = {},
+    shade_terminals = true,
+    shading_factor = 2,
+    start_in_insert = true,
+    insert_mappings = true,
+    persist_size = true,
+    direction = 'horizontal',
+}
+EOF
+
+" ---------------------------
+" Настройка для hologram.nvim (отображение изображений)
+" ---------------------------
+lua << EOF
+require('hologram').setup{
+  auto_display = true
+}
+EOF
+
+" ---------------------------
+" Настройка для DAP UI (интерфейс для отладки)
+" ---------------------------
+lua << EOF
+require('dapui').setup()
+EOF
+
+" ---------------------------
+" Настройки для Telescope (поиск)
+" ---------------------------
+lua << EOF
+require('telescope').setup{
+  defaults = {},
+  pickers = {},
+  extensions = {}
+}
+EOF
+
+" ==========================
+" Настройки ключевых маппингов
+" ==========================
+
+" Маппинги для работы с файлом
+nnoremap <leader>e :NvimTreeToggle<CR>
 nnoremap <leader>ff <cmd>Telescope find_files<CR>
 nnoremap <leader>fg <cmd>Telescope live_grep<CR>
 nnoremap <leader>fb <cmd>Telescope buffers<CR>
 nnoremap <leader>fh <cmd>Telescope help_tags<CR>
-nnoremap <leader>e :NvimTreeToggle<CR>
-nnoremap n <cmd>execute('normal! ' . v:count1 . 'n')<CR><cmd>lua require('hlslens').start()<CR>
-nnoremap N <cmd>execute('normal! ' . v:count1 . 'N')<CR><cmd>lua require('hlslens').start()<CR>
 
-" Отладка
-nnoremap <leader>d :lua require('dapui').toggle()<CR>
+" Маппинги для работы с LSP
+nnoremap <silent> gd <cmd>lua vim.lsp.buf.definition()<CR>
+nnoremap <silent> K <cmd>lua vim.lsp.buf.hover()<CR>
+nnoremap <silent> <leader>rn <cmd>lua vim.lsp.buf.rename()<CR>
 
-" Dashboard
-nnoremap <leader>db :Dashboard<CR>
-nnoremap <leader>dn :DashboardNewFile<CR>
-
-" ToggleTerm
-nnoremap <leader>t :ToggleTerm<CR>
-
-" Настройка строки состояния
-set laststatus=2 " Всегда отображать строку состояния
-set statusline=%f%m%r%h%w\ [%{&ff}]\ [%{&fileencoding}]\ [%{&fileformat}]\ [%{&filetype}]\ [%c]\ [%l/%L]\ [%p%%]
-
-" Открыть Git статус (аналог команды git status)
-nmap <leader>gs :Git<CR>
-
-" Добавить файл в индекс (аналог git add)
-nmap <leader>ga :Git add %<CR>
-
-" Коммит изменений (аналог git commit)
-nmap <leader>gc :Git commit<CR>
-
-" Запушить изменения (аналог git push)
-nmap <leader>gp :Git push<CR>
-
-" Запуллить изменения (аналог git pull)
-nmap <leader>gl :Git pull<CR>
-
-" Просмотр диффов для текущего файла
-nmap <leader>gd :Gdiffsplit<CR>
-
-" Быстрый доступ к истории коммитов (аналог git log)
-nmap <leader>gh :Git log<CR>
-
-" Просмотр блэйма для текущего файла
-nmap <leader>gb :Git blame<CR>
-
-" Просмотр веток
-nmap <leader>gB :Git branch<CR>
-
-nmap <leader>ga :Git add %<CR>
-
-" Восстановление изменений (аналог git checkout -- <file>)
-nmap <leader>gr :Git checkout -- %<CR>
-
-
-" Настройка для горизонтального сплита при просмотре диффов
-let g:fugitive_diff_split = 'vertical'
-
-
-set encoding=utf-8
-set expandtab
-set shiftwidth=4
-set softtabstop=4
-set tabstop=4
-set number
-set termguicolors
-" Включение системного буфера обмена
-set clipboard=unnamedplus
+" Базовые настройки редактора
+syntax on                " Включить подсветку синтаксиса
+set encoding=utf-8        " Кодировка UTF-8
+set expandtab             " Преобразование табов в пробелы
+set shiftwidth=4          " Ширина отступов
+set softtabstop=4         " Размер табов при редактировании
+set tabstop=4             " Отображаемый размер табов
+set number                " Включить нумерацию строк
+set termguicolors         " Включить поддержку 24-битных цветов в терминале
+set clipboard=unnamedplus " Использовать системный буфер обмена
 
 " Маппинг для копирования в системный буфер обмена с помощью Ctrl + y
 nnoremap <C-c> "+y
 vnoremap <C-c> "+y
+
+" Дополнительные маппинги
+vmap cc :norm i#<CR>      " Добавить комментарий ко всей выделенной строке
+vmap uc :norm ^x<CR>      " Убрать комментарий
+vmap tb :norm i" '<CR>    " Вставить кавычки вокруг текста
+nnoremap <C-g> :RenameCurrentFile<CR> " Быстрое переименование файла
 

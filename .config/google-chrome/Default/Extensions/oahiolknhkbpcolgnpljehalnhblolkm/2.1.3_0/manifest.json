@@ -1,0 +1,31 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icons/icon128.png",
+         "16": "icons/icon16.png",
+         "48": "icons/icon48.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "ShortsBlocker - Remove Shorts from YouTube"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "styles.css" ],
+      "js": [ "/assets/index.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Remove Shorts videos from Youtube",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtGafCbUGSibiSBvURsiI8bzCDwgrYJprxNqHSCReIRURLCch0gSLK6Fq6gF0nktDegEv5DA7vbzEJwYvFbl7KUWjuY3G0/4dQmNHlrWDZMBtEu4DI9S32tJgtiVhwX+Nac5NEDrBf39Ua/zSdBXt+7RVn3a+A2vOyEvtAN0ucoVSWSDifjxjCg9W8RnJeX1ksNDQYk+vUBD8s24UiTy0Ck4HCBTm4OUEZE5BOiUZBhZ25Y5KatYKdXmp/3N7CTIFiUJQN0nK0UDOYv5JnU9vjX0lmbAtU7B/0QvGvaryKykx492Q8nVUjs75CpBrVSalxQjRl/jT5qyuSEBZOwZXCwIDAQAB",
+   "manifest_version": 3,
+   "name": "ShortsBlocker - Remove Shorts from YouTube",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.3"
+}

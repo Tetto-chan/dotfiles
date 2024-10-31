@@ -1,0 +1,35 @@
+{
+   "columns_count": {
+      "message": "Columns count"
+   },
+   "description": {
+      "message": "Currency rate calculator"
+   },
+   "flag": {
+      "message": "Flag"
+   },
+   "label_type": {
+      "message": "Currency label"
+   },
+   "last": {
+      "message": "last"
+   },
+   "name": {
+      "message": "Simple currency converter"
+   },
+   "on_open": {
+      "message": "On open"
+   },
+   "showing_currencies": {
+      "message": "Displayed currencies:"
+   },
+   "sign": {
+      "message": "Sign"
+   },
+   "text": {
+      "message": "Text"
+   },
+   "updated": {
+      "message": "Updated: "
+   }
+}

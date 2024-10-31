@@ -1,0 +1,35 @@
+{
+	"description": {
+		"message": "ვალუტის კურსის კალკულატორი"
+	},
+	"name": {
+		"message": "მარტივი ვალუტის გადამყვანი"
+	},
+	"showing_currencies": {
+		"message": "ნაჩვენები ვალუტები:"
+	},
+	"last": {
+		"message": "ბოლო"
+	},
+	"on_open": {
+		"message": "გახსნისას"
+	},
+	"updated": {
+		"message": "განახლებულია: "
+	},
+	"label_type": {
+		"message": "ვალუტის ეტიკეტი"
+	},
+	"text": {
+		"message": "ტექსტი"
+	},
+	"flag": {
+		"message": "დროშა"
+	},
+	"sign": {
+		"message": "ნიშანი"
+	},
+	"columns_count": {
+		"message": "სვეტების რაოდენობა"
+	}
+}

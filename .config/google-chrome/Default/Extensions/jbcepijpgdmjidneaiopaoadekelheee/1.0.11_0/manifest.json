@@ -1,0 +1,29 @@
+{
+   "action": {
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "js/app.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "js": [ "js/content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "differential_fingerprint": "1.c8f6207aab703c0311a46a06dc5aaab46862ad274b31592dd40a8624a4b655a3",
+   "host_permissions": [ "https://flame-vpn.com/", "https://api.ipify.org/" ],
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApXVHcRTcz3aZqv5Y89OyAg6cPGHCh3Tu/Ki148OFHnj/t/hjyN6mXQLRlyKrkrtmQcc5/qRRXSISBF1fihWZwXHd6OHQ180joc/+HwkbF229rnhLmI6m5v3zFFTSKz2Pc8g2cqBJ/8u+IbFVluLIWxq/SZ2os3dpHhfNGsjHrKFghpfCK+tMZNh0I13pwOM1iJKDLJGVfI/37oUSrfa3fgB5V0/+Fu43qBTgH/eY0vcaqFKImntgiYOjMCHH5EZ/HrCx7e7oOySzzw3b8uuf7mXWKgDC2l1hB4L6IT1chbtcu8GADIZueLtWDxL6euwOsb1rIv7KUFx4nhhEEESA3QIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extensionName__",
+   "permissions": [ "storage", "proxy", "management", "activeTab", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.11"
+}

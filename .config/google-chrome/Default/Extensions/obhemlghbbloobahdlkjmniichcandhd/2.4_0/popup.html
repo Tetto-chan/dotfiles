@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<html>
+<meta http-equiv="content-type" content="text/html" charset="UTF-8"> 
+<head>
+    <style type="text/css">
+body {
+    font-family: roboto-regular,Helvetica,Arial,sans-serif;
+    color: rgb(64, 64, 64);
+    font-size: 15px;
+    background-color: rgb(241, 241, 241);
+    margin: 11px;
+}
+
+@font-face {
+	font-family: "Twemoji Country Flags";
+	src: url(TwemojiCountryFlags.woff2) format('woff2');
+	unicode-range: U+1F1E6-1F1FF, U+1F3F4, U+E0062-E0063, U+E0065, U+E0067, U+E006C, U+E006E, U+E0073-E0074, U+E0077, U+E007F;
+}
+
+.val {
+	color: #000;
+}
+
+input[type="text"], input[type="number"] {
+	width: 112px;
+	font-weight: 700;
+	margin: 1px 0 5px;
+	padding: 1px 5px 2px;
+	border-radius: 3px;
+	border: 1px solid #BBB;
+	box-shadow: inset 1px 1px 2px #dddddd;
+	background-color: rgba(255, 255, 255, 0.92);
+	font-size: 13px;
+	line-height: 0.21em;
+	color: #3a3a3a;
+	font-family: system-ui;
+	height: 17px;
+}
+
+label {
+	margin: 2px 0;
+}
+
+.tab.currency {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.col {
+	display: inline-block;
+	vertical-align: top;
+	width: calc(130px * 1);
+	margin-right: -5px;
+}
+
+.cols {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: -5px;
+}
+
+.cols label {
+	margin: 2px 0;
+	min-width: 84px;
+	display: inline-block;
+}
+
+.tab.options {
+	display : none;
+	width: 253px;
+}
+
+.downline {
+    font-size: 11px;
+    font-family: arial,serif;
+    font-weight: normal;
+    margin: 8px 0 0;
+    text-align: right;
+}
+
+.downline a {
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    margin-left: 8px;
+}
+
+.downline a:hover {
+    text-decoration: underline;
+}
+
+input[type="checkbox"] {
+	vertical-align: middle;
+	margin: 2px 5px 4px 5px;
+}
+
+span.setting-title {
+	text-align: center;
+	display: block;
+	margin: 10px 0;
+}
+
+.line {
+	margin: 7px 0;
+}
+
+.label-currency {
+	position: absolute;
+	z-index: 6;
+	color: #00000069;
+	font-size: 10px;
+	margin: 6px 17px 0 -27px;
+}
+
+.label-currency.flag {
+	font-family: "Twemoji Country Flags", system-ui;
+	color: #000000;
+	font-size: 16px;
+	margin: 0 16px 0 -22px;
+}
+
+.label-currency.sign {
+	font-size: 11px;
+	margin: 6px 17px 0 -16px;
+}
+
+.item {
+	display: inline-block;
+	margin: 0 5px 0 0;
+	width: 125px;
+}
+
+.options .col label {
+	width: 86px;
+	display: inline-block;
+}
+select {
+	margin: 0 0 4px 5px;
+}
+
+.updated {
+	font-size: 9px;
+	color: #00000096;
+	text-align: center;
+	margin: 5px -1px 0 -1px;
+	font-weight: normal;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #292a2d;
+		color: #e5e5e5;
+	}
+
+	input[type="text"], input[type="number"] {
+		border: 1px solid #171717;
+		box-shadow: inset 1px 1px 2px #2b2b2b;
+		background-color: rgb(89 89 89 / 92%);
+		color: #d3d3d3;
+	}
+
+	.updated {
+		color: #ffffff5e;
+	}
+
+	.downline a {
+		color: rgb(166 166 166);
+	}
+
+	.label-currency {
+		color: #ffffff69;
+	}
+}
+    </style>
+    
+	<script src="jquery-3.2.1.min.js"></script>
+    <script src="popup.js"></script>
+</head>
+<body>
+	<div class="tab currency">
+		<div class="col"></div>
+		<div class="updated">
+			<span data-lang="updated">О11бновлено: </span><span id="updated">****.**.** **:**</span>
+		</div>
+	</div>
+	<div class="tab options">
+		<span class="setting-title" data-lang="showing_currencies">Отображаемые валюты:</span>
+		<div class="cols"></div>
+		<div class="line">
+			<select name="labelType" id="labelType">
+				<option value="TEXT" data-lang="text">Текст</option>
+				<option value="SIGN" data-lang="sign">Символ</option>
+				<option value="FLAG" data-lang="flag">Флаг</option>
+			</select>
+			<label for="labelType" data-lang="label_type">Подпись валюты</label>
+		</div>
+		<div class="line">
+			<select name="startFrom" id="startFrom">
+				<option value="USD">1 USD</option>
+				<option value="BTC">1 BTC</option>
+				<option value="LAST" data-lang="last">последнее</option>
+			</select>
+			<label for="startFrom" data-lang="on_open">при открытии</label>
+		</div>
+		<div class="line">
+			<select name="columns" id="columns">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+			<label for="columns" data-lang="columns_count">Количество колонок</label>
+		</div>
+	</div>
+	<div class="downline">
+		<a href="https://t.me/MaxCurrencyConverterBot" target="_blank">TG Bot</a>
+		<a href="https://vk.com/kursy_valut_vk" target="_blank" >VK</a>
+		<a href="#" id="setting">⚙️</a>
+	</div>
+</body>
+</html>

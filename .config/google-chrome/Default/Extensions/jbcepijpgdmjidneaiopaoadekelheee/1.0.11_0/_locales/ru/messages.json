@@ -1,0 +1,130 @@
+{
+   "about": {
+      "description": "",
+      "message": "О сервисе"
+   },
+   "another_extension_controls_proxy": {
+      "description": "",
+      "message": "Расширение VPNType не может работать, когда активны другие расширения управляющие настройками прокси браузера\u003Cbr>\u003Cbr>Пожалуйста, отключите другие расширения которые имеют доступ к управлению прокси, такие как: Блокировщики рекламы, Vpn, прокси-сервисы и др."
+   },
+   "click_to_connect": {
+      "description": "",
+      "message": "Нажмите чтобы подключиться"
+   },
+   "click_to_disconnect": {
+      "description": "",
+      "message": "Нажмите чтобы отключиться"
+   },
+   "connected": {
+      "description": "",
+      "message": "Подключено"
+   },
+   "copied": {
+      "description": "",
+      "message": "ID скопирован в буфер обмена"
+   },
+   "definition_ip": {
+      "description": "",
+      "message": "Определяем ваш IP..."
+   },
+   "disable_other_extensions": {
+      "description": "",
+      "message": "Отключить другие расширения"
+   },
+   "do_you_like": {
+      "description": "",
+      "message": "Вам нравится наш сервис?"
+   },
+   "extensionDescription": {
+      "description": "",
+      "message": "Бесплатное ВПН расширение для обхода замедления Youtube в России | Установите расширение в браузер Яндекс, Google Chrome, Opera на ПК"
+   },
+   "extensionDescriptionEdge": {
+      "description": "",
+      "message": "Скачайте лучшее бесплатное VPN расширение VPNTYPE для браузера Microsoft Edge - гарантия безопасности и конфиденциальности, доступ к заблокированным сайтам на вашем ПК."
+   },
+   "extensionDescriptionOpera": {
+      "description": "",
+      "message": "Лучшее Бесплатное VPN расширение для браузера Opera и Яндекс на ПК - Скачайте VPNTYPE Proxy c высокой скоростью, без ограниченией и регистрации"
+   },
+   "extensionName": {
+      "description": "",
+      "message": "Бeсплатный VPN для Ютуб | VPNTYPE"
+   },
+   "extensionNameEdge": {
+      "description": "",
+      "message": "VPNTYPE - Бесплатное VPN расширение для Microsoft Edge"
+   },
+   "extensionNameOpera": {
+      "description": "",
+      "message": "VPNTYPE - Бeсплатное VPN для Opera и Яндекс"
+   },
+   "extension_brand_title": {
+      "description": "",
+      "message": "Vpntype Free Browser Extension"
+   },
+   "get_unlimited_access": {
+      "description": "",
+      "message": "Получите доступ к самым быстрым серверам"
+   },
+   "install_for_all_devices": {
+      "description": "",
+      "message": "Установить VPNTYPE"
+   },
+   "language": {
+      "description": "",
+      "message": "Язык"
+   },
+   "settings": {
+      "description": "",
+      "message": "Настройки сайтов"
+   },
+   "split_tunneling": {
+      "description": "",
+      "message": "Настройки сайтов"
+   },
+   "split_tunneling_active": {
+      "description": "",
+      "message": "VPN работает только для выбранных сайтов"
+   },
+   "split_tunneling_except": {
+      "description": "",
+      "message": "Везде кроме указанных сайтов"
+   },
+   "split_tunneling_off": {
+      "description": "",
+      "message": "Использовать прокси везде"
+   },
+   "split_tunneling_selected": {
+      "description": "",
+      "message": "Только для указанных сайтов"
+   },
+   "split_tunneling_websites": {
+      "description": "",
+      "message": "Список сайтов"
+   },
+   "subscription": {
+      "description": "",
+      "message": "Подписка"
+   },
+   "support": {
+      "description": "",
+      "message": "Поддержка"
+   },
+   "upgrade_to_premium": {
+      "description": "",
+      "message": "Подключите Премиум"
+   },
+   "user_area": {
+      "description": "",
+      "message": "Личный кабинет"
+   },
+   "user_for_all_devices": {
+      "description": "",
+      "message": "Для всех устройств"
+   },
+   "your_ip": {
+      "description": "",
+      "message": "Ваш IP: "
+   }
+}

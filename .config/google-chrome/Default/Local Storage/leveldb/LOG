@@ -1,0 +1,21 @@
+2024/10/30-20:51:58.665 4 Reusing MANIFEST /home/tetto/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2024/10/30-20:51:58.674 4 Recovering log #119
+2024/10/30-20:51:58.675 4 Reusing old log /home/tetto/.config/google-chrome/Default/Local Storage/leveldb/000119.log 
+2024/10/30-20:54:03.677 6 Level-0 table #123: started
+2024/10/30-20:54:03.682 6 Level-0 table #123: 72276 bytes OK
+2024/10/30-20:54:03.685 6 Delete type=0 #119
+2024/10/30-20:54:03.686 6 Compacting 4@0 + 1@1 files
+2024/10/30-20:54:03.694 6 Generated table #124@0: 212 keys, 160606 bytes
+2024/10/30-20:54:03.694 6 Compacted 4@0 + 1@1 files => 160606 bytes
+2024/10/30-20:54:03.696 6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/10/30-20:54:03.697 6 Delete type=2 #118
+2024/10/30-20:54:03.697 6 Delete type=2 #120
+2024/10/30-20:54:03.697 6 Delete type=2 #113
+2024/10/30-20:54:03.697 6 Delete type=2 #123
+2024/10/30-20:54:03.697 6 Delete type=2 #115
+2024/10/30-21:17:03.205 4 Level-0 table #126: started
+2024/10/30-21:17:03.215 4 Level-0 table #126: 40826 bytes OK
+2024/10/30-21:17:03.218 4 Delete type=0 #122
+2024/10/30-21:35:35.411 4 Level-0 table #128: started
+2024/10/30-21:35:35.416 4 Level-0 table #128: 51809 bytes OK
+2024/10/30-21:35:35.423 4 Delete type=0 #125

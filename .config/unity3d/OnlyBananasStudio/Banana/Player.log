@@ -1,0 +1,1639 @@
+Preloaded 'lib_burst_generated.so'
+Preloaded 'libsteam_api.so'
+Display 0 'eDP-1 15"': 1920x1080 (primary device).
+[Physics::Module] Initialized MultithreadedJobDispatcher with 1 workers.
+Loading player data from /home/tetto/.local/share/Steam/steamapps/common/Banana/Banana_Data/data.unity3d
+Unable to load player prefs
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path /home/tetto/.local/share/Steam/steamapps/common/Banana/Banana_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=0
+Renderer: Mesa Intel(R) UHD Graphics 600 (GLK 2)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 24.2.5-arch1.1
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_d
+erivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_pol
+ygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_
+clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_
+viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL
+_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth
+_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 206400800
+FMOD failed to set the software format to the custom sample rate 1, trying software fallback rate 48000
+Default vsync count 1
+requesting resize 600 x 600
+resizing window to 600 x 600
+Desktop is 1920 x 1080 @ 60 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+UnloadTime: 17.716151 ms
+Initializing Steam Client API
+HeathenEngineering.SteamworksIntegration.API.Client:Initialize(AppData, InventorySettings, LeaderboardObject[], InputAction[])
+HeathenEngineering.SteamworksIntegration.SteamSettings:Initialize()
+Clicker.GameManager:Start()
+
+[S_API] SteamAPI_Init(): Loaded '/home/tetto/.local/share/Steam/linux64/steamclient.so' OK.
+Inconsistent value (1) for DRI_PRIME. Should be < 1 (GPU devices count). Using: 0
+Setting breakpad minidump AppID = 2923300
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561199642367306 [API loaded no]
+Local User: Tetto:0
+HeathenEngineering.SteamworksIntegration.API.Client:Initialize(AppData, InventorySettings, LeaderboardObject[], InputAction[])
+HeathenEngineering.SteamworksIntegration.SteamSettings:Initialize()
+Clicker.GameManager:Start()
+
+Steam API has been initialized with App ID: 2923300
+HeathenEngineering.SteamworksIntegration.API.Client:Initialize(AppData, InventorySettings, LeaderboardObject[], InputAction[])
+HeathenEngineering.SteamworksIntegration.SteamSettings:Initialize()
+Clicker.GameManager:Start()
+
+Leaderboards ready
+HeathenEngineering.SteamworksIntegration.API.<>c:<Initialize>b__6_1(EResult)
+HeathenEngineering.SteamworksIntegration.LeaderboardData:GetAll(LeaderboardObject[], Action`1)
+HeathenEngineering.SteamworksIntegration.API.Client:Initialize(AppData, InventorySettings, LeaderboardObject[], InputAction[])
+HeathenEngineering.SteamworksIntegration.SteamSettings:Initialize()
+Clicker.GameManager:Start()
+
+File does not exist: bananas.txt
+Steam.SteamStorageController:GetTxt(String)
+Clicker.GameManager:Start()
+
+File does not exist: lastDropDate.txt
+Steam.SteamStorageController:GetTxt(String)
+General.UserScripts:InitNextDropTimer()
+
+Start Refreshing Steam Inventory
+General.UserScripts:InventoryUpdate(InventoryResult)
+HeathenEngineering.SteamworksIntegration.API.Client:HandleInventoryResults(SteamInventoryResultReady_t)
+Steamworks.Callback`1:OnRunCallback(IntPtr)
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+HeathenEngineering.SteamworksIntegration.API.App:CallbackWaitThread_ProgressChanged(Object, ProgressChangedEventArgs)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+Steam Inventory Refreshed
+General.UserScripts:InventoryUpdate(InventoryResult)
+HeathenEngineering.SteamworksIntegration.API.Client:HandleInventoryResults(SteamInventoryResultReady_t)
+Steamworks.Callback`1:OnRunCallback(IntPtr)
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+HeathenEngineering.SteamworksIntegration.API.App:CallbackWaitThread_ProgressChanged(Object, ProgressChangedEventArgs)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<InventoryManager.UpdateList> No items
+Inventory.InventoryManager:UpdateList()
+General.UserScripts:InventoryUpdate(InventoryResult)
+HeathenEngineering.SteamworksIntegration.API.Client:HandleInventoryResults(SteamInventoryResultReady_t)
+Steamworks.Callback`1:OnRunCallback(IntPtr)
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+HeathenEngineering.SteamworksIntegration.API.App:CallbackWaitThread_ProgressChanged(Object, ProgressChangedEventArgs)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+Failed to parse item definition load from Valve: Index was outside the bounds of the array.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+Importing an Item Generator from Steam API ...
+Valve deliberately omits the bundle node when importing items from the Steam API. As such the item pool (aka Items, aka Bundle) of this generator will be blank. You must manually reset this value before you export the JSON otherwise the generator will have an empty bundle.
+Please let Valve know that this is a problem for you and that you would like to see this changed. This is a limitation from Valve and not something Heathen can effect.
+HeathenEngineering.SteamworksIntegration.<AsyncDefinitionLoad>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+NullReferenceException: Object reference not set to an instance of an object.
+  at General.UserScripts.UpdateInventoryResult (HeathenEngineering.SteamworksIntegration.InventoryResult inventoryResult) [0x00000] in <00000000000000000000000000000000>:0 
+  at Steam.ItemDropCheck.ItemDropCallback (HeathenEngineering.SteamworksIntegration.InventoryResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at HeathenEngineering.SteamworksIntegration.API.Inventory+Client.HandleInventoryResults (Steamworks.SteamInventoryResultReady_t results) [0x00000] in <00000000000000000000000000000000>:0 
+  at Steamworks.Callback`1[T].OnRunCallback (System.IntPtr pvParam) [0x00000] in <00000000000000000000000000000000>:0 
+  at Steamworks.CallbackDispatcher.RunFrame (System.Boolean isGameServer) [0x00000] in <00000000000000000000000000000000>:0 
+  at HeathenEngineering.SteamworksIntegration.API.App.CallbackWaitThread_ProgressChanged (System.Object sender, System.ComponentModel.ProgressChangedEventArgs e) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.UnitySynchronizationContext.Exec () [0x00000] in <00000000000000000000000000000000>:0 
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+HeathenEngineering.SteamworksIntegration.API.App:CallbackWaitThread_ProgressChanged(Object, ProgressChangedEventArgs)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+NullReferenceException: Object reference not set to an instance of an object.
+  at General.UserScripts.UpdateInventoryResult (HeathenEngineering.SteamworksIntegration.InventoryResult inventoryResult) [0x00000] in <00000000000000000000000000000000>:0 
+  at Steam.ItemDropCheck.ItemDropCallback (HeathenEngineering.SteamworksIntegration.InventoryResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at HeathenEngineering.SteamworksIntegration.API.Inventory+Client.HandleInventoryResults (Steamworks.SteamInventoryResultReady_t results) [0x00000] in <00000000000000000000000000000000>:0 
+  at Steamworks.Callback`1[T].OnRunCallback (System.IntPtr pvParam) [0x00000] in <00000000000000000000000000000000>:0 
+  at Steamworks.CallbackDispatcher.RunFrame (System.Boolean isGameServer) [0x00000] in <00000000000000000000000000000000>:0 
+  at HeathenEngineering.SteamworksIntegration.API.App.CallbackWaitThread_ProgressChanged (System.Object sender, System.ComponentModel.ProgressChangedEventArgs e) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.UnitySynchronizationContext.Exec () [0x00000] in <00000000000000000000000000000000>:0 
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+HeathenEngineering.SteamworksIntegration.API.App:CallbackWaitThread_ProgressChanged(Object, ProgressChangedEventArgs)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+NullReferenceException: Object reference not set to an instance of an object.
+  at General.UserScripts.UpdateInventoryResult (HeathenEngineering.SteamworksIntegration.InventoryResult inventoryResult) [0x00000] in <00000000000000000000000000000000>:0 
+  at Steam.ItemDropCheck.ItemDropCallback (HeathenEngineering.SteamworksIntegration.InventoryResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at HeathenEngineering.SteamworksIntegration.API.Inventory+Client.HandleInventoryResults (Steamworks.SteamInventoryResultReady_t results) [0x00000] in <00000000000000000000000000000000>:0 
+  at Steamworks.Callback`1[T].OnRunCallback (System.IntPtr pvParam) [0x00000] in <00000000000000000000000000000000>:0 
+  at Steamworks.CallbackDispatcher.RunFrame (System.Boolean isGameServer) [0x00000] in <00000000000000000000000000000000>:0 
+  at HeathenEngineering.SteamworksIntegration.API.App.CallbackWaitThread_ProgressChanged (System.Object sender, System.ComponentModel.ProgressChangedEventArgs e) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.UnitySynchronizationContext.Exec () [0x00000] in <00000000000000000000000000000000>:0 
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+HeathenEngineering.SteamworksIntegration.API.App:CallbackWaitThread_ProgressChanged(Object, ProgressChangedEventArgs)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<InventoryManager.UpdateList> No items
+Inventory.InventoryManager:UpdateList()
+Inventory.BaseInventoryManager:OpenInventory()
+UnityEngine.Events.UnityEvent:Invoke()
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+
+Start Refreshing Steam Inventory
+General.UserScripts:InventoryUpdate(InventoryResult)
+HeathenEngineering.SteamworksIntegration.API.Client:HandleInventoryResults(SteamInventoryResultReady_t)
+Steamworks.Callback`1:OnRunCallback(IntPtr)
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+HeathenEngineering.SteamworksIntegration.API.App:CallbackWaitThread_ProgressChanged(Object, ProgressChangedEventArgs)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+File does not exist: equippedItem.txt
+Steam.SteamStorageController:GetTxt(String)
+General.UserScripts:LoadEquipUserItem()
+General.UserScripts:InventoryUpdate(InventoryResult)
+HeathenEngineering.SteamworksIntegration.API.Client:HandleInventoryResults(SteamInventoryResultReady_t)
+Steamworks.Callback`1:OnRunCallback(IntPtr)
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+HeathenEngineering.SteamworksIntegration.API.App:CallbackWaitThread_ProgressChanged(Object, ProgressChangedEventArgs)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+No equipped item found: 
+General.UserScripts:LoadEquipUserItem()
+General.UserScripts:InventoryUpdate(InventoryResult)
+HeathenEngineering.SteamworksIntegration.API.Client:HandleInventoryResults(SteamInventoryResultReady_t)
+Steamworks.Callback`1:OnRunCallback(IntPtr)
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+HeathenEngineering.SteamworksIntegration.API.App:CallbackWaitThread_ProgressChanged(Object, ProgressChangedEventArgs)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+Steam Inventory Refreshed
+General.UserScripts:InventoryUpdate(InventoryResult)
+HeathenEngineering.SteamworksIntegration.API.Client:HandleInventoryResults(SteamInventoryResultReady_t)
+Steamworks.Callback`1:OnRunCallback(IntPtr)
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+HeathenEngineering.SteamworksIntegration.API.App:CallbackWaitThread_ProgressChanged(Object, ProgressChangedEventArgs)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+Start Refreshing Steam Inventory
+General.UserScripts:InventoryUpdate(InventoryResult)
+HeathenEngineering.SteamworksIntegration.API.Client:HandleInventoryResults(SteamInventoryResultReady_t)
+Steamworks.Callback`1:OnRunCallback(IntPtr)
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+HeathenEngineering.SteamworksIntegration.API.App:CallbackWaitThread_ProgressChanged(Object, ProgressChangedEventArgs)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+File does not exist: equippedItem.txt
+Steam.SteamStorageController:GetTxt(String)
+General.UserScripts:LoadEquipUserItem()
+General.UserScripts:InventoryUpdate(InventoryResult)
+HeathenEngineering.SteamworksIntegration.API.Client:HandleInventoryResults(SteamInventoryResultReady_t)
+Steamworks.Callback`1:OnRunCallback(IntPtr)
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+HeathenEngineering.SteamworksIntegration.API.App:CallbackWaitThread_ProgressChanged(Object, ProgressChangedEventArgs)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+No equipped item found: 
+General.UserScripts:LoadEquipUserItem()
+General.UserScripts:InventoryUpdate(InventoryResult)
+HeathenEngineering.SteamworksIntegration.API.Client:HandleInventoryResults(SteamInventoryResultReady_t)
+Steamworks.Callback`1:OnRunCallback(IntPtr)
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+HeathenEngineering.SteamworksIntegration.API.App:CallbackWaitThread_ProgressChanged(Object, ProgressChangedEventArgs)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+Steam Inventory Refreshed
+General.UserScripts:InventoryUpdate(InventoryResult)
+HeathenEngineering.SteamworksIntegration.API.Client:HandleInventoryResults(SteamInventoryResultReady_t)
+Steamworks.Callback`1:OnRunCallback(IntPtr)
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+HeathenEngineering.SteamworksIntegration.API.App:CallbackWaitThread_ProgressChanged(Object, ProgressChangedEventArgs)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30791 != 30782, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30793 != 30782, skipping destruction (fork without exec?)
+pid 30796 != 30782, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30798 != 30782, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30801 != 30782, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30800 != 30782, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30810 != 30803, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30812 != 30803, skipping destruction (fork without exec?)
+pid 30816 != 30803, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30815 != 30803, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30824 != 30803, skipping destruction (fork without exec?)
+pid 30821 != 30803, skipping destruction (fork without exec?)
+pid 30825 != 30803, skipping destruction (fork without exec?)
+pid 30826 != 30803, skipping destruction (fork without exec?)
+pid 30828 != 30803, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30819 != 30803, skipping destruction (fork without exec?)
+pid 30831 != 30782, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30830 != 30782, skipping destruction (fork without exec?)
+pid 30834 != 30782, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30833 != 30782, skipping destruction (fork without exec?)
+pid 30837 != 30782, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30836 != 30782, skipping destruction (fork without exec?)
+pid 30840 != 30782, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30839 != 30782, skipping destruction (fork without exec?)
+pid 30843 != 30782, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30842 != 30782, skipping destruction (fork without exec?)
+pid 30846 != 30782, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30845 != 30782, skipping destruction (fork without exec?)
+pid 30849 != 30782, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30848 != 30782, skipping destruction (fork without exec?)
+pid 30852 != 30782, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30851 != 30782, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30857 != 30782, skipping destruction (fork without exec?)
+pid 30856 != 30782, skipping destruction (fork without exec?)
+pid 30855 != 30782, skipping destruction (fork without exec?)
+pid 30854 != 30782, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30860 != 30782, skipping destruction (fork without exec?)
+pid 30859 != 30782, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30863 != 30782, skipping destruction (fork without exec?)
+pid 30862 != 30782, skipping destruction (fork without exec?)
+pid 30869 != 30782, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30868 != 30782, skipping destruction (fork without exec?)
+pid 30867 != 30782, skipping destruction (fork without exec?)
+pid 30866 != 30782, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30880 != 30865, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30883 != 30865, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30888 != 30865, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30891 != 30865, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30894 != 30865, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30893 != 30865, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+[30872:30872:1027/230344.589510:ERROR:settings.cc(409)] Settings version is not 1
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 30916 != 30896, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/usr/bin/xdg-open: line 442: 30922 Segmentation fault      (core dumped) dbus-send --print-reply --dest=org.freedesktop.DBus /org/freedesktop/DBus org.freedesktop.DBus.GetNameOwner string:org.gnome.SessionManager > /dev/null 2>&1
+requesting resize 600 x 600
+requesting fullscreen 600 x 600 at 0/1 Hz
+Setting up downscaled viewport at 600 x 600
+Desktop is 1920 x 1080 @ 60 Hz
+pid 30920 != 30896, skipping destruction (fork without exec?)
+pid 30987 != 30896, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/usr/bin/xdg-open: line 442: 30925 Segmentation fault      (core dumped) xprop -root _DT_SAVE_MODE 2> /dev/null
+     30927                       (core dumped) | grep ' = \"xfce4\"$' > /dev/null 2>&1
+/usr/bin/xdg-open: line 442: 30924 Segmentation fault      (core dumped) dbus-send --print-reply --dest=org.freedesktop.DBus /org/freedesktop/DBus org.freedesktop.DBus.GetNameOwner string:org.gnome.SessionManager > /dev/null 2>&1
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0/1 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+[30872:30872:1027/230417.984683:FATAL:zygote_host_impl_linux.cc(207)] Check failed: . : No such file or directory (2)
+[1027/230417.991278:ERROR:elf_dynamic_array_reader.h(64)] tag not found
+[1027/230418.007191:ERROR:directory_reader_posix.cc(43)] opendir /tmp/dumps/attachments/503d2a80-2018-4318-8229-491b40d7e1b7: No such file or directory (2)
+/usr/bin/xdg-open: line 909: 30872 Trace/breakpoint trap   (core dumped) env "$command" "$@"
+pid 30986 != 30896, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31083 != 30905, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31096 != 30919, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31100 != 30942, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31092 != 30905, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31112 != 30945, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31116 != 30905, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31121 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31110 != 30896, skipping destruction (fork without exec?)
+pid 31107 != 30896, skipping destruction (fork without exec?)
+pid 31125 != 30896, skipping destruction (fork without exec?)
+pid 31127 != 30940, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31114 != 30942, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31132 != 30905, skipping destruction (fork without exec?)
+pid 31126 != 30896, skipping destruction (fork without exec?)
+pid 31135 != 30896, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31142 != 30905, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31137 != 30944, skipping destruction (fork without exec?)
+pid 31090 != 30896, skipping destruction (fork without exec?)
+pid 31149 != 30942, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31130 != 30945, skipping destruction (fork without exec?)
+pid 31153 != 30865, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31144 != 30940, skipping destruction (fork without exec?)
+pid 31141 != 30905, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31157 != 30944, skipping destruction (fork without exec?)
+pid 31159 != 30945, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31161 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31163 != 30940, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31152 != 30865, skipping destruction (fork without exec?)
+pid 31167 != 30945, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31172 != 30932, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31170 != 30865, skipping destruction (fork without exec?)
+pid 31174 != 30942, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31176 != 30940, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31178 != 30944, skipping destruction (fork without exec?)
+pid 31184 != 30945, skipping destruction (fork without exec?)
+pid 31181 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31188 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31191 != 30940, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31168 != 30865, skipping destruction (fork without exec?)
+pid 31197 != 30942, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31200 != 30865, skipping destruction (fork without exec?)
+pid 31196 != 30865, skipping destruction (fork without exec?)
+pid 31186 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31206 != 30865, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31195 != 30942, skipping destruction (fork without exec?)
+pid 31193 != 30932, skipping destruction (fork without exec?)
+pid 31211 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31183 != 30945, skipping destruction (fork without exec?)
+pid 31190 != 30940, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31218 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31220 != 30932, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31204 != 30865, skipping destruction (fork without exec?)
+pid 31225 != 30865, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31230 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31233 != 31156, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31235 != 30932, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31229 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31224 != 30865, skipping destruction (fork without exec?)
+pid 31243 != 30865, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31252 != 30932, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31256 != 31205, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31251 != 30932, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31240 != 30865, skipping destruction (fork without exec?)
+pid 31245 != 31156, skipping destruction (fork without exec?)
+pid 31260 != 30865, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31259 != 30865, skipping destruction (fork without exec?)
+pid 31278 != 31156, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31284 != 30865, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31286 != 31216, skipping destruction (fork without exec?)
+pid 31280 != 30865, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31274 != 31205, skipping destruction (fork without exec?)
+pid 31292 != 30865, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31294 != 31217, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31298 != 31210, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31277 != 31156, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31291 != 30865, skipping destruction (fork without exec?)
+pid 31307 != 31205, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31289 != 30865, skipping destruction (fork without exec?)
+pid 31288 != 30865, skipping destruction (fork without exec?)
+pid 31310 != 30865, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31304 != 31216, skipping destruction (fork without exec?)
+pid 31315 != 31237, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31309 != 30865, skipping destruction (fork without exec?)
+pid 31324 != 30865, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31312 != 31217, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31306 != 31205, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31317 != 31210, skipping destruction (fork without exec?)
+pid 31323 != 30865, skipping destruction (fork without exec?)
+pid 31332 != 31216, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31339 != 31210, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31337 != 30865, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31344 != 31258, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31352 != 31217, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31336 != 30865, skipping destruction (fork without exec?)
+pid 31329 != 31237, skipping destruction (fork without exec?)
+pid 31338 != 31210, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31330 != 31216, skipping destruction (fork without exec?)
+pid 31335 != 30865, skipping destruction (fork without exec?)
+pid 31334 != 30865, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31351 != 31217, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31350 != 31156, skipping destruction (fork without exec?)
+pid 31347 != 31156, skipping destruction (fork without exec?)
+pid 31365 != 31156, skipping destruction (fork without exec?)
+pid 31369 != 31237, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31361 != 31205, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31363 != 31258, skipping destruction (fork without exec?)
+pid 31358 != 31205, skipping destruction (fork without exec?)
+pid 31377 != 31205, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31366 != 31156, skipping destruction (fork without exec?)
+pid 31381 != 31156, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31368 != 31237, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31379 != 31205, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31398 != 31205, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31401 != 31258, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31319 != 31156, skipping destruction (fork without exec?)
+pid 31404 != 30905, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31386 != 31210, skipping destruction (fork without exec?)
+pid 31397 != 31217, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31383 != 31210, skipping destruction (fork without exec?)
+pid 31407 != 31210, skipping destruction (fork without exec?)
+pid 31390 != 31217, skipping destruction (fork without exec?)
+pid 31410 != 31217, skipping destruction (fork without exec?)
+pid 31396 != 31216, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31391 != 31216, skipping destruction (fork without exec?)
+pid 31342 != 31205, skipping destruction (fork without exec?)
+pid 31415 != 31216, skipping destruction (fork without exec?)
+pid 31400 != 31258, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31420 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31403 != 30905, skipping destruction (fork without exec?)
+pid 31416 != 31216, skipping destruction (fork without exec?)
+pid 31408 != 31210, skipping destruction (fork without exec?)
+pid 31424 != 31210, skipping destruction (fork without exec?)
+pid 31423 != 31216, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31426 != 30905, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31411 != 31217, skipping destruction (fork without exec?)
+pid 31431 != 31217, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31418 != 30944, skipping destruction (fork without exec?)
+pid 31434 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31422 != 30905, skipping destruction (fork without exec?)
+pid 31441 != 30905, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31373 != 31217, skipping destruction (fork without exec?)
+pid 31446 != 30940, skipping destruction (fork without exec?)
+pid 31371 != 31210, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31376 != 31216, skipping destruction (fork without exec?)
+pid 31433 != 30944, skipping destruction (fork without exec?)
+pid 31451 != 30942, skipping destruction (fork without exec?)
+pid 31453 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31461 != 30945, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31439 != 31237, skipping destruction (fork without exec?)
+pid 31440 != 30905, skipping destruction (fork without exec?)
+pid 31464 != 30905, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31436 != 31237, skipping destruction (fork without exec?)
+pid 31466 != 31237, skipping destruction (fork without exec?)
+pid 31452 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31470 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31445 != 30940, skipping destruction (fork without exec?)
+pid 31473 != 30940, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31450 != 30942, skipping destruction (fork without exec?)
+pid 31459 != 31258, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31476 != 30942, skipping destruction (fork without exec?)
+pid 31472 != 30940, skipping destruction (fork without exec?)
+pid 31479 != 30940, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31456 != 31258, skipping destruction (fork without exec?)
+pid 31460 != 30945, skipping destruction (fork without exec?)
+pid 31481 != 31258, skipping destruction (fork without exec?)
+pid 31467 != 31237, skipping destruction (fork without exec?)
+pid 31484 != 30945, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31487 != 31237, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31463 != 30905, skipping destruction (fork without exec?)
+pid 31490 != 30905, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31469 != 30944, skipping destruction (fork without exec?)
+pid 31493 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31475 != 30942, skipping destruction (fork without exec?)
+pid 31496 != 30942, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31478 != 30940, skipping destruction (fork without exec?)
+pid 31499 != 30940, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31483 != 31258, skipping destruction (fork without exec?)
+pid 31501 != 31258, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31482 != 30945, skipping destruction (fork without exec?)
+pid 31504 != 30945, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31489 != 30905, skipping destruction (fork without exec?)
+pid 31507 != 30905, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31492 != 30944, skipping destruction (fork without exec?)
+pid 31498 != 30940, skipping destruction (fork without exec?)
+pid 31511 != 30940, skipping destruction (fork without exec?)
+pid 31512 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31495 != 30942, skipping destruction (fork without exec?)
+pid 31516 != 30942, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31413 != 31237, skipping destruction (fork without exec?)
+pid 31503 != 30945, skipping destruction (fork without exec?)
+pid 31522 != 30945, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31524 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31443 != 31258, skipping destruction (fork without exec?)
+pid 31528 != 30932, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31510 != 30944, skipping destruction (fork without exec?)
+pid 31531 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31506 != 30905, skipping destruction (fork without exec?)
+pid 31534 != 30905, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31527 != 30932, skipping destruction (fork without exec?)
+pid 31509 != 30940, skipping destruction (fork without exec?)
+pid 31538 != 30932, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31540 != 30940, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31515 != 30942, skipping destruction (fork without exec?)
+pid 31546 != 30942, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31520 != 30941, skipping destruction (fork without exec?)
+pid 31549 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31530 != 30944, skipping destruction (fork without exec?)
+pid 31556 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31519 != 30945, skipping destruction (fork without exec?)
+pid 31533 != 30905, skipping destruction (fork without exec?)
+pid 31560 != 30945, skipping destruction (fork without exec?)
+pid 31561 != 30905, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31536 != 30932, skipping destruction (fork without exec?)
+pid 31565 != 30932, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31548 != 30941, skipping destruction (fork without exec?)
+pid 31575 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31537 != 30940, skipping destruction (fork without exec?)
+pid 31578 != 30940, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31555 != 30944, skipping destruction (fork without exec?)
+pid 31545 != 30942, skipping destruction (fork without exec?)
+pid 31586 != 30942, skipping destruction (fork without exec?)
+pid 31583 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31558 != 30945, skipping destruction (fork without exec?)
+pid 31589 != 30945, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31559 != 30905, skipping destruction (fork without exec?)
+pid 31603 != 30905, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31564 != 30932, skipping destruction (fork without exec?)
+pid 31613 != 30932, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31588 != 30945, skipping destruction (fork without exec?)
+pid 31623 != 30945, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31584 != 30942, skipping destruction (fork without exec?)
+pid 31632 != 30942, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31574 != 30941, skipping destruction (fork without exec?)
+pid 31651 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31577 != 30940, skipping destruction (fork without exec?)
+pid 31661 != 30940, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31612 != 30932, skipping destruction (fork without exec?)
+pid 31665 != 30932, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31581 != 30944, skipping destruction (fork without exec?)
+pid 31582 != 30944, skipping destruction (fork without exec?)
+pid 31580 != 30944, skipping destruction (fork without exec?)
+pid 31676 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31631 != 30942, skipping destruction (fork without exec?)
+pid 31697 != 30942, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+[31357:31357:1027/230504.481160:FATAL:zygote_host_impl_linux.cc(207)] Check failed: . : No such file or directory (2)
+[1027/230504.494502:ERROR:elf_dynamic_array_reader.h(64)] tag not found
+/usr/bin/xdg-open: line 909: 31357 Trace/breakpoint trap   (core dumped) env "$command" "$@"
+pid 31660 != 30940, skipping destruction (fork without exec?)
+pid 31729 != 30940, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31599 != 30905, skipping destruction (fork without exec?)
+pid 31600 != 30905, skipping destruction (fork without exec?)
+pid 31597 != 30905, skipping destruction (fork without exec?)
+pid 31739 != 30905, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31622 != 30945, skipping destruction (fork without exec?)
+pid 31751 != 30945, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31650 != 30941, skipping destruction (fork without exec?)
+pid 31763 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31664 != 30932, skipping destruction (fork without exec?)
+pid 31766 != 30932, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31728 != 30940, skipping destruction (fork without exec?)
+/usr/bin/xdg-open: line 1045: x-www-browser: command not found
+pid 31773 != 30944, skipping destruction (fork without exec?)
+pid 31750 != 30945, skipping destruction (fork without exec?)
+pid 31774 != 30940, skipping destruction (fork without exec?)
+pid 31696 != 30942, skipping destruction (fork without exec?)
+pid 31776 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/usr/bin/xdg-open: line 1045: x-www-browser: command not found
+pid 31779 != 30905, skipping destruction (fork without exec?)
+pid 31765 != 30932, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31783 != 30905, skipping destruction (fork without exec?)
+pid 31785 != 30942, skipping destruction (fork without exec?)
+pid 31762 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31788 != 30945, skipping destruction (fork without exec?)
+pid 31793 != 30932, skipping destruction (fork without exec?)
+pid 31790 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31772 != 30940, skipping destruction (fork without exec?)
+pid 31771 != 30940, skipping destruction (fork without exec?)
+pid 31770 != 30940, skipping destruction (fork without exec?)
+pid 31781 != 30945, skipping destruction (fork without exec?)
+pid 31799 != 30940, skipping destruction (fork without exec?)
+pid 31780 != 30945, skipping destruction (fork without exec?)
+pid 31777 != 30945, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31802 != 30945, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31782 != 30942, skipping destruction (fork without exec?)
+pid 31789 != 30941, skipping destruction (fork without exec?)
+pid 31805 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31787 != 30932, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31814 != 30932, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31813 != 30942, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31798 != 30940, skipping destruction (fork without exec?)
+pid 31801 != 30945, skipping destruction (fork without exec?)
+pid 31818 != 30940, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31821 != 30945, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31820 != 30945, skipping destruction (fork without exec?)
+pid 31804 != 30941, skipping destruction (fork without exec?)
+pid 31829 != 30945, skipping destruction (fork without exec?)
+pid 31827 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31812 != 30932, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31809 != 30942, skipping destruction (fork without exec?)
+pid 31836 != 30932, skipping destruction (fork without exec?)
+pid 31826 != 30945, skipping destruction (fork without exec?)
+pid 31824 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31839 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31808 != 30942, skipping destruction (fork without exec?)
+pid 31807 != 30942, skipping destruction (fork without exec?)
+pid 31825 != 30945, skipping destruction (fork without exec?)
+pid 31823 != 30945, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31843 != 30942, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31838 != 30941, skipping destruction (fork without exec?)
+pid 31817 != 30940, skipping destruction (fork without exec?)
+pid 31850 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31857 != 30940, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31835 != 30932, skipping destruction (fork without exec?)
+pid 31854 != 30940, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31853 != 30940, skipping destruction (fork without exec?)
+pid 31852 != 30940, skipping destruction (fork without exec?)
+pid 31834 != 30932, skipping destruction (fork without exec?)
+pid 31833 != 30932, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31866 != 30932, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31841 != 30942, skipping destruction (fork without exec?)
+pid 31870 != 30942, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31849 != 30941, skipping destruction (fork without exec?)
+pid 31848 != 30941, skipping destruction (fork without exec?)
+pid 31847 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31878 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31873 != 30941, skipping destruction (fork without exec?)
+pid 31865 != 30932, skipping destruction (fork without exec?)
+pid 31887 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31889 != 30932, skipping destruction (fork without exec?)
+pid 31869 != 30942, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31895 != 30942, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31894 != 30942, skipping destruction (fork without exec?)
+pid 31893 != 30942, skipping destruction (fork without exec?)
+pid 31885 != 30932, skipping destruction (fork without exec?)
+pid 31892 != 30942, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31886 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31905 != 30932, skipping destruction (fork without exec?)
+pid 31909 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31903 != 30932, skipping destruction (fork without exec?)
+pid 31908 != 30941, skipping destruction (fork without exec?)
+pid 31902 != 30932, skipping destruction (fork without exec?)
+pid 31901 != 30932, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 31907 != 30941, skipping destruction (fork without exec?)
+pid 31904 != 30941, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/opt/google/chrome/google-chrome: line 26: 31936 Segmentation fault      (core dumped) mkdir -p "$xdg_app_dir"
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+[31842:31842:1027/230539.145019:FATAL:zygote_host_impl_linux.cc(207)] Check failed: . : No such file or directory (2)
+[1027/230539.271227:ERROR:elf_dynamic_array_reader.h(64)] tag not found
+/usr/bin/xdg-open: line 1030: 31811 Segmentation fault      (core dumped) $browser "$1"
+pid 32120 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/usr/bin/xdg-open: line 909: 31842 Trace/breakpoint trap   (core dumped) env "$command" "$@"
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/usr/bin/xdg-open: line 1045: iceweasel: command not found
+pid 32141 != 30944, skipping destruction (fork without exec?)
+pid 32143 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+[31933:31933:0100/000000.684260:ERROR:zygote_linux.cc(678)] write: Broken pipe (32)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/opt/google/chrome/google-chrome: line 40: /chrome: No such file or directory
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/opt/google/chrome/google-chrome: line 40: /chrome: No such file or directory
+/usr/bin/xdg-open: line 1045: seamonkey: command not found
+pid 32154 != 30944, skipping destruction (fork without exec?)
+pid 32155 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 32160 != 30915, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/usr/bin/xdg-open: line 1045: mozilla: command not found
+pid 32164 != 30944, skipping destruction (fork without exec?)
+pid 32168 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/usr/bin/xdg-open: line 1045: epiphany: command not found
+pid 32176 != 30944, skipping destruction (fork without exec?)
+pid 32173 != 30915, skipping destruction (fork without exec?)
+pid 32177 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 32180 != 30915, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/usr/bin/xdg-open: line 1045: konqueror: command not found
+pid 32182 != 30944, skipping destruction (fork without exec?)
+pid 32183 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 32186 != 30915, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/usr/bin/xdg-open: line 1045: chromium: command not found
+pid 32188 != 30944, skipping destruction (fork without exec?)
+pid 32189 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/usr/bin/xdg-open: line 671: 32186 Done                    echo "$1"
+     32187 Segmentation fault      (core dumped) | LC_ALL=C grep -Eq '^[[:alpha:]][[:alpha:][:digit:]+\.\-]*:'
+pid 32201 != 30915, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/usr/bin/xdg-open: line 1030: 32189 Done                    echo "$browser"
+     32190 Segmentation fault      (core dumped) | grep -q %s
+/usr/bin/xdg-open: line 1045: chromium-browser: command not found
+pid 32214 != 30944, skipping destruction (fork without exec?)
+pid 32215 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/usr/bin/xdg-open: line 1045: google-chrome: command not found
+pid 32219 != 30944, skipping destruction (fork without exec?)
+pid 32220 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/usr/bin/xdg-open: line 1045: www-browser: command not found
+pid 32222 != 30944, skipping destruction (fork without exec?)
+pid 32223 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/usr/bin/xdg-open: line 1045: links2: command not found
+pid 32225 != 30944, skipping destruction (fork without exec?)
+pid 32226 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/usr/bin/xdg-open: line 1045: elinks: command not found
+pid 32228 != 30944, skipping destruction (fork without exec?)
+pid 32229 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/usr/bin/xdg-open: line 1045: links: command not found
+pid 32231 != 30944, skipping destruction (fork without exec?)
+pid 32232 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/usr/bin/xdg-open: line 1045: lynx: command not found
+pid 32234 != 30944, skipping destruction (fork without exec?)
+pid 32235 != 30944, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/tetto/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+/usr/bin/xdg-open: line 1045: w3m: command not found
+pid 32237 != 30944, skipping destruction (fork without exec?)
+xdg-open: no method available for opening 'https://shop.onlybananas.com/'
+pid 32200 != 30915, skipping destruction (fork without exec?)
+xdg-open: file 'https://store.steampowered.com/itemstore/2923300/?filter=Featured' does not exist
+[31900:31900:1027/230604.380317:FATAL:zygote_host_impl_linux.cc(207)] Check failed: . : No such file or directory (2)
+[1027/230604.384740:ERROR:elf_dynamic_array_reader.h(64)] tag not found
+/usr/bin/xdg-open: line 909: 31900 Trace/breakpoint trap   (core dumped) env "$command" "$@"
+Start Refreshing Steam Inventory
+General.UserScripts:InventoryUpdate(InventoryResult)
+HeathenEngineering.SteamworksIntegration.API.Client:HandleInventoryResults(SteamInventoryResultReady_t)
+Steamworks.Callback`1:OnRunCallback(IntPtr)
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+HeathenEngineering.SteamworksIntegration.API.App:CallbackWaitThread_ProgressChanged(Object, ProgressChangedEventArgs)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+File does not exist: equippedItem.txt
+Steam.SteamStorageController:GetTxt(String)
+General.UserScripts:LoadEquipUserItem()
+General.UserScripts:InventoryUpdate(InventoryResult)
+HeathenEngineering.SteamworksIntegration.API.Client:HandleInventoryResults(SteamInventoryResultReady_t)
+Steamworks.Callback`1:OnRunCallback(IntPtr)
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+HeathenEngineering.SteamworksIntegration.API.App:CallbackWaitThread_ProgressChanged(Object, ProgressChangedEventArgs)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+No equipped item found: 
+General.UserScripts:LoadEquipUserItem()
+General.UserScripts:InventoryUpdate(InventoryResult)
+HeathenEngineering.SteamworksIntegration.API.Client:HandleInventoryResults(SteamInventoryResultReady_t)
+Steamworks.Callback`1:OnRunCallback(IntPtr)
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+HeathenEngineering.SteamworksIntegration.API.App:CallbackWaitThread_ProgressChanged(Object, ProgressChangedEventArgs)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+Steam Inventory Refreshed
+General.UserScripts:InventoryUpdate(InventoryResult)
+HeathenEngineering.SteamworksIntegration.API.Client:HandleInventoryResults(SteamInventoryResultReady_t)
+Steamworks.Callback`1:OnRunCallback(IntPtr)
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+HeathenEngineering.SteamworksIntegration.API.App:CallbackWaitThread_ProgressChanged(Object, ProgressChangedEventArgs)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+[1027/230625.804440:ERROR:elf_dynamic_array_reader.h(64)] tag not found
+IPC function call IClientInventory::GetItemDefinitionProperty took too long: 230 msec
+IPC function call IClientInventory::GetItemDefinitionProperty took too long: 49 msec
+IPC function call IClientInventory::DestroyResult took too long: 73 msec
+Setting up 1 worker threads for Enlighten.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 10845 frames, [1.0 KB-2.0 KB]: 20280 frames, [2.0 KB-4.0 KB]: 958 frames, [4.0 KB-8.0 KB]: 3123 frames, [8.0 KB-16.0 KB]: 36 frames, [16.0 KB-32.0 KB]: 123 frames, [32.0 KB-64.0 KB]: 12 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 2 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 8.0 MB
+      Peak Allocated Bytes 6.1 MB
+      Overflow Count 261680
+    [ALLOC_TEMP_Background Job.worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 500.0 KB
+      Peak Allocated Bytes 464.2 KB
+      Overflow Count 14
+    [ALLOC_TEMP_Background Job.worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 34.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 36.0 KB
+      Peak Allocated Bytes 32.1 KB
+      Overflow Count 3
+    [ALLOC_TEMP_EnlightenWorker]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 16.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 124.0 KB
+      Peak Allocated Bytes 121.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 577
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 98960
+        32B: 2 Subsections = 1024 buckets. Failed count: 45069
+        48B: 13 Subsections = 4437 buckets. Failed count: 436748
+        64B: 90 Subsections = 23040 buckets. Failed count: 93681
+        80B: 144 Subsections = 29491 buckets. Failed count: 26305
+        96B: 2 Subsections = 341 buckets. Failed count: 18929
+        112B: 2 Subsections = 292 buckets. Failed count: 0
+        128B: 2 Subsections = 256 buckets. Failed count: 10682
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [32.0 MB-64.0 MB]: 35379 frames, [64.0 MB-128.0 MB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 3
+      Peak Allocated memory 84.6 MB
+      Peak Large allocation bytes 51.8 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 33778 frames, [32.0 MB-64.0 MB]: 1602 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 40.8 MB
+      Peak Large allocation bytes 29.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 2
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 26
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 98960
+        32B: 2 Subsections = 1024 buckets. Failed count: 45069
+        48B: 13 Subsections = 4437 buckets. Failed count: 436748
+        64B: 90 Subsections = 23040 buckets. Failed count: 93681
+        80B: 144 Subsections = 29491 buckets. Failed count: 26305
+        96B: 2 Subsections = 341 buckets. Failed count: 18929
+        112B: 2 Subsections = 292 buckets. Failed count: 0
+        128B: 2 Subsections = 256 buckets. Failed count: 10682
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [64.0 KB-128.0 KB]: 9522 frames, [128.0 KB-256.0 KB]: 25177 frames, [256.0 KB-0.5 MB]: 679 frames, [0.5 MB-1.0 MB]: 2 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 0.6 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [2.0 MB-4.0 MB]: 35380 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 2.6 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 2
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 98960
+        32B: 2 Subsections = 1024 buckets. Failed count: 45069
+        48B: 13 Subsections = 4437 buckets. Failed count: 436748
+        64B: 90 Subsections = 23040 buckets. Failed count: 93681
+        80B: 144 Subsections = 29491 buckets. Failed count: 26305
+        96B: 2 Subsections = 341 buckets. Failed count: 18929
+        112B: 2 Subsections = 292 buckets. Failed count: 0
+        128B: 2 Subsections = 256 buckets. Failed count: 10682
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [2.0 MB-4.0 MB]: 20632 frames, [4.0 MB-8.0 MB]: 14748 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 5.5 MB
+      Peak Large allocation bytes 2.0 MB
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [1.0 MB-2.0 MB]: 14745 frames, [2.0 MB-4.0 MB]: 2 frames, [4.0 MB-8.0 MB]: 20633 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 2
+      Peak Allocated memory 7.5 MB
+      Peak Large allocation bytes 4.0 MB
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 98960
+        32B: 2 Subsections = 1024 buckets. Failed count: 45069
+        48B: 13 Subsections = 4437 buckets. Failed count: 436748
+        64B: 90 Subsections = 23040 buckets. Failed count: 93681
+        80B: 144 Subsections = 29491 buckets. Failed count: 26305
+        96B: 2 Subsections = 341 buckets. Failed count: 18929
+        112B: 2 Subsections = 292 buckets. Failed count: 0
+        128B: 2 Subsections = 256 buckets. Failed count: 10682
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 14220 frames, [16.0 KB-32.0 KB]: 21159 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 19.9 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [16.0 KB-32.0 KB]: 14746 frames, [64.0 KB-128.0 KB]: 20634 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 115.4 KB
+      Peak Large allocation bytes 0 B
+IL2CPP Free after allocator was destroyed
+IL2CPP Free after allocator was destroyed
+IL2CPP Free after allocator was destroyed
+IL2CPP Free after allocator was destroyed
+IL2CPP Free after allocator was destroyed
+IL2CPP Free after allocator was destroyed
+IL2CPP Free after allocator was destroyed
+IL2CPP Free after allocator was destroyed
+IL2CPP Free after allocator was destroyed
+IL2CPP Free after allocator was destroyed
+IL2CPP Free after allocator was destroyed
+IL2CPP Free after allocator was destroyed
+IL2CPP Free after allocator was destroyed
+[32172:32172:0100/000000.721139:ERROR:zygote_linux.cc(678)] write: Broken pipe (32)
+Caught fatal signal - signo:2 code:0 errno:0 addr:0x3e800005ff7
+Obtained 19 stack frames.
+#0  0x007a7beac5c31b in PlayerMain(int, char**)
+#1  0x007a7beac541a7 in (Unknown)
+#2  0x007a7be9b5d1d0 in __sigaction
+#3  0x007a7be9c371fd in syscall
+#4  0x007a7bebeffc38 in (Unknown)
+#5  0x007a7bebf0179c in (Unknown)
+#6  0x007a7bebf06b32 in (Unknown)
+#7  0x007a7bebf06bf9 in (Unknown)
+#8  0x007a7bebf13ab0 in IsOverlayEnabled
+#9  0x007a7bebf13b85 in IsOverlayEnabled
+#10 0x007a7be9b5f340 in __cxa_finalize
+#11 0x007a7bebefce63 in (Unknown)
+#12 0x007a7bebf400f2 in (Unknown)
+#13 0x007a7bebf433ee in __nptl_change_stack_perm
+#14 0x007a7be9b5f891 in erand48_r
+#15 0x007a7be9b5f95e in exit
+#16 0x007a7be9b45e0f in __libc_init_first
+#17 0x007a7be9b45ecc in __libc_start_main
+#18 0x00000000201029 in (Unknown)
+Caught fatal signal - signo:11 code:1 errno:0 addr:0x15c
+Obtained 21 stack frames.
+#0  0x007a7beac5c31b in PlayerMain(int, char**)
+#1  0x007a7beac541a7 in (Unknown)
+#2  0x007a7be9b5d1d0 in __sigaction
+#3  0x007a7beac54217 in (Unknown)
+#4  0x007a7be9b5d1d0 in __sigaction
+#5  0x007a7be9c371fd in syscall
+#6  0x007a7bebeffc38 in (Unknown)
+#7  0x007a7bebf0179c in (Unknown)
+#8  0x007a7bebf06b32 in (Unknown)
+#9  0x007a7bebf06bf9 in (Unknown)
+#10 0x007a7bebf13ab0 in IsOverlayEnabled
+#11 0x007a7bebf13b85 in IsOverlayEnabled
+#12 0x007a7be9b5f340 in __cxa_finalize
+#13 0x007a7bebefce63 in (Unknown)
+#14 0x007a7bebf400f2 in (Unknown)
+#15 0x007a7bebf433ee in __nptl_change_stack_perm
+#16 0x007a7be9b5f891 in erand48_r
+#17 0x007a7be9b5f95e in exit
+#18 0x007a7be9b45e0f in __libc_init_first
+#19 0x007a7be9b45ecc in __libc_start_main
+#20 0x00000000201029 in (Unknown)

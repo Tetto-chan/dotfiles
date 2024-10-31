@@ -1,0 +1,35 @@
+{
+   "columns_count": {
+      "message": "Количество колонок"
+   },
+   "description": {
+      "message": "Калькулятор курсов валют"
+   },
+   "flag": {
+      "message": "Флаг"
+   },
+   "label_type": {
+      "message": "Подпись валюты"
+   },
+   "last": {
+      "message": "последнее"
+   },
+   "name": {
+      "message": "Простой конвертер валют"
+   },
+   "on_open": {
+      "message": "При открытии"
+   },
+   "showing_currencies": {
+      "message": "Отображаемые валюты:"
+   },
+   "sign": {
+      "message": "Знак"
+   },
+   "text": {
+      "message": "Текст"
+   },
+   "updated": {
+      "message": "Обновлено: "
+   }
+}

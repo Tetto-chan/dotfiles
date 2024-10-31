@@ -1,0 +1,11 @@
+2024/10/30-14:25:47.919 4 Reusing MANIFEST /home/tetto/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2024/10/30-14:25:47.932 4 Recovering log #111
+2024/10/30-14:25:47.936 4 Level-0 table #115: started
+2024/10/30-14:25:47.943 4 Level-0 table #115: 73352 bytes OK
+2024/10/30-14:25:47.949 4 Delete type=0 #111
+2024/10/30-14:26:53.622 4 Level-0 table #118: started
+2024/10/30-14:26:53.639 4 Level-0 table #118: 50319 bytes OK
+2024/10/30-14:26:53.643 4 Delete type=0 #116
+2024/10/30-16:02:59.814 4 Level-0 table #120: started
+2024/10/30-16:02:59.823 4 Level-0 table #120: 35266 bytes OK
+2024/10/30-16:02:59.829 4 Delete type=0 #117

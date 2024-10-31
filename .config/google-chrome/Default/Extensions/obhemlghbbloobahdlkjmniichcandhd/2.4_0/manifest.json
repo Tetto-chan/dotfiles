@@ -1,0 +1,28 @@
+{
+   "action": {
+      "default_icon": {
+         "48": "icon48.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "__MSG_name__"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "default_locale": "ru",
+   "description": "__MSG_description__",
+   "host_permissions": [ "*://*.iliz.net/*" ],
+   "icons": {
+      "128": "icon128.png",
+      "19": "icon48.png",
+      "24": "icon48.png",
+      "32": "icon48.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkfACdwhMf5O9Q9pJvON9HCGzUbz7WUsbRtnQHlOWPdWKH9MlSH2MsTVH+Ws2x+UPjuw31m74OCjpIJT1oqV7GX7hWwEi1wtQR7UPfNt/bZThZOyrx2vzspeEw1znboYrOuIry76U32bSKb2Io3GBX/c0IUmL4lWCPV75t9AX0Bbipw2ZxI3DuWQDoOQo70yoncsXa/LFwGFkDQyyBjUs6Xrf2aExCeBkCJzIXxkDJA2ftmUDw+i7rra+/LKAuQ6Wsc6FE3njdmAQXgMaWZVM0TgiF8vOBG65bKTZr5uDAQbb5nyeMQW78UJZjl7nWTbFwUIEdQJTKOpH13JMSNWZdwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_name__",
+   "permissions": [ "storage", "alarms" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.4"
+}

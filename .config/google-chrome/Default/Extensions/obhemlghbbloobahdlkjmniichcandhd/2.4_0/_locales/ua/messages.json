@@ -1,0 +1,35 @@
+{
+	"description": {
+		"message": "Калькулятор валютних курсів"
+	},
+	"name": {
+		"message": "Простий конвертер валют"
+	},
+	"showing_currencies": {
+		"message": "Показані валюти:"
+	},
+	"last": {
+		"message": "остання"
+	},
+	"on_open": {
+		"message": "При відкритті"
+	},
+	"updated": {
+		"message": "Оновлено: "
+	},
+	"label_type": {
+		"message": "Позначка валюти"
+	},
+	"text": {
+		"message": "Текст"
+	},
+	"flag": {
+		"message": "Прапор"
+	},
+	"sign": {
+		"message": "Знак"
+	},
+	"columns_count": {
+		"message": "Кількість стовпців"
+	}
+}

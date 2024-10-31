@@ -1,0 +1,130 @@
+{
+   "about": {
+      "description": "",
+      "message": "About"
+   },
+   "another_extension_controls_proxy": {
+      "description": "",
+      "message": "Vpntype cannot work because another extension in controlling your proxy setting.\u003Cbr>\u003Cbr>Please disable other extensions that you think might control your proxy settings such as ad-blockers, other VPN services, etc."
+   },
+   "click_to_connect": {
+      "description": "",
+      "message": "Click to connect"
+   },
+   "click_to_disconnect": {
+      "description": "",
+      "message": "Click to disconnect"
+   },
+   "connected": {
+      "description": "",
+      "message": "Connected"
+   },
+   "copied": {
+      "description": "",
+      "message": "ID copied to clipboard"
+   },
+   "definition_ip": {
+      "description": "",
+      "message": "Definition of your IP..."
+   },
+   "disable_other_extensions": {
+      "description": "",
+      "message": "Disable other extensions"
+   },
+   "do_you_like": {
+      "description": "",
+      "message": "Do you like vpntype?"
+   },
+   "extensionDescription": {
+      "description": "",
+      "message": "Download the best free VPNTYPE extension for browser Google Chrome for PC - Secure Private & unblock any website"
+   },
+   "extensionDescriptionEdge": {
+      "description": "",
+      "message": "The Best free VPNTYPE extension for Microsoft Edge 2023 - Secure, private browsing and unblock any website with ease on your PC"
+   },
+   "extensionDescriptionOpera": {
+      "description": "",
+      "message": "Download the best free VPNTYPE extension for browser Opera for PC 2023 - Secure Private & unblock any website"
+   },
+   "extensionName": {
+      "description": "",
+      "message": "VPNTYPE - Free VPN еxtension Google Chrome"
+   },
+   "extensionNameEdge": {
+      "description": "",
+      "message": "VPNTYPE - Free VPN Extension for Microsoft Edge"
+   },
+   "extensionNameOpera": {
+      "description": "",
+      "message": "VPNTYPE - Best Free VPN Extension for Opera"
+   },
+   "extension_brand_title": {
+      "description": "",
+      "message": "Vpntype Free Browser Extension"
+   },
+   "get_unlimited_access": {
+      "description": "",
+      "message": "Get access to the fastest servers"
+   },
+   "install_for_all_devices": {
+      "description": "",
+      "message": "Install VPNTYPE"
+   },
+   "language": {
+      "description": "",
+      "message": "Language"
+   },
+   "settings": {
+      "description": "",
+      "message": "Setting"
+   },
+   "split_tunneling": {
+      "description": "",
+      "message": "Website settings"
+   },
+   "split_tunneling_active": {
+      "description": "",
+      "message": "VPN only works for selected sites"
+   },
+   "split_tunneling_except": {
+      "description": "",
+      "message": "Don’t proxy selected websites"
+   },
+   "split_tunneling_off": {
+      "description": "",
+      "message": "Proxy for all"
+   },
+   "split_tunneling_selected": {
+      "description": "",
+      "message": "Proxy only selected websites"
+   },
+   "split_tunneling_websites": {
+      "description": "",
+      "message": "Websites"
+   },
+   "subscription": {
+      "description": "",
+      "message": "Subscription manage"
+   },
+   "support": {
+      "description": "",
+      "message": "Support"
+   },
+   "upgrade_to_premium": {
+      "description": "",
+      "message": "Upgrade to Premium"
+   },
+   "user_area": {
+      "description": "",
+      "message": "User area"
+   },
+   "user_for_all_devices": {
+      "description": "",
+      "message": "use for all devices"
+   },
+   "your_ip": {
+      "description": "",
+      "message": "Your IP: "
+   }
+}

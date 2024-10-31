@@ -1,0 +1,35 @@
+{
+   "columns_count": {
+      "message": "Anzahl der Spalten"
+   },
+   "description": {
+      "message": "Währungsrechner"
+   },
+   "flag": {
+      "message": "Flagge"
+   },
+   "label_type": {
+      "message": "Währungsbezeichnung"
+   },
+   "last": {
+      "message": "zuletzt"
+   },
+   "name": {
+      "message": "Einfacher Währungsumrechner"
+   },
+   "on_open": {
+      "message": "Beim Öffnen"
+   },
+   "showing_currencies": {
+      "message": "Angezeigte Währungen:"
+   },
+   "sign": {
+      "message": "Zeichen"
+   },
+   "text": {
+      "message": "Text"
+   },
+   "updated": {
+      "message": "Aktualisiert: "
+   }
+}

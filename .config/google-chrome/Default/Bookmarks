@@ -1,0 +1,53 @@
+{
+   "checksum": "1894d4dc04945df4a28ff0514e555780",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13373708550035958",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13373708550035962",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13350470880517425",
+            "date_last_used": "0",
+            "guid": "72a33e6d-f36c-4733-8f33-4719d54a1187",
+            "id": "5",
+            "name": "Яндекс",
+            "type": "url",
+            "url": "https://www.ya.ru/?win=629&clid=2414926-404&from=dist_bookmark"
+         }, {
+            "date_added": "13350470880517441",
+            "date_last_used": "0",
+            "guid": "bcdbaa65-c4be-4c42-b263-cce9a48649c2",
+            "id": "6",
+            "name": "Яндекс Маркет",
+            "type": "url",
+            "url": "https://market.yandex.ru/?from=dist_bookmarks&win=629&clid=2414929-404"
+         } ],
+         "date_added": "13373708550035964",
+         "date_last_used": "0",
+         "date_modified": "13350470880517441",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CoQDCuMCCIiBAhLcAiAAkgHWAgqMAgoOY2hyb21lX3N5bmNfYm0SBTUxIWJtGhIJgi1L+7okBgARgi1L+7okBgAiNAm0Gg37uiQGABADGbN9fZWWyAfYIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAm0Gg37uiQGABADGbN9fZWWyAfYIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAm0Gg37uiQGABADGbN9fZWWyAfYIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAm0Gg37uiQGABADGbN9fZWWyAfYIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEpurJL+7okBgAKRQoWYW5ub3RhdGlvbl9jaHJvbWVfc3luYxIFNTEhYmQaEgkA9Jj2uiQGABEA9Jj2uiQGACn6skv7uiQGADCA6OO0r5eJAxIAKhg4VEV5Ri9vTUZrdUI4bjhMemJlVXJBPT1IAxLsAQgGEucBChwrSzhJWWYrdzh1RmhZZ2VLUWl3WVNMNDZWQU09EmZaOkFEcXRBWngyV1o4SmxTZGFXOTViVUZaQVk5Qk81YnpzdzlPY2dsVEhLbnFSWDBjbk1rSGZrOExnVWt4Tm1DWXZpeXkvQUdldmtzM1o4UHBBdTQ2RkRMTTRmVVJKbTZBa0RBPT0YACAAKAAw7oLM0orzgwM4q9mrq9MxQKvZq6vTMUocS094YlFuRWg5VmJuUHB0Zm5wV3dLUE1YQ2VZPVofIh2sRnRwVnNsc3lIcVd6aTFDbnVNa0JvN0VQTGp3PWUAAAAAEusBCAUS5gEKHHdDNERYWDZwejFKTkZxc0t1UzBCNTNKRFd6dz0SZlo6QURxdEFaeDJXWjhKbFNkYVc5NWJVRlpBWTlCT2xVVWxIelZsWDJrNmwyZXBFVTk0bm9aeDZqRGZYZS9KK2VaTWJNRlJkNFBZeGlQNHB0RXM4c1pGTit2MFZ2aWdNVC82Z2c9PRgAIAAoADDugszSivODAzir2aur0zFAq9mrq9MxShxqMzExVkJUeWxUNldpZGR3ampqK0MrRnVyaTA9Wh4iHFlIZXFGR1V6V29mZXRlejVTTlVmZGs1aTZWbz1lAAAAABLDAQgCEr4BChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EmZaOkFEcXRBWndTd0hBaFlRdVB0dUNzNXgwVzJMeEROcHB2S2t5ZzU3QTlPclBYVXowaTVBT0VxcFFxOG9UMmE0eDRjc002Q2huNndPM2FyM2g4SWg0Q3lSU1FaaDIxOE1kRjVnPT0YACAAKAAwtLW02K+XiQM4AEAAShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAABLDAQgDEr4BChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EmZaOkFEcXRBWndYaGJPcTRCQ1ZURDN4eC9sQms2WU5VeXgzaFJrYTRUYWlPeDdUYlA3eUhtemxyUzd4SklFcmNEazFSdHNOSUJLRFZtU25hVllEQmdwK0xpY3BiOVZUMDNYT3FBPT0YACAAKAAwtLW02K+XiQM4AEAAShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAABKrAQgBEqYBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9Ek5aOkFEcXRBWnd0cUh6eHVVNmlSQVVLaDB1c2Rrd014VWxST0RXbkNUalJsOEloMHRtQ0FwU1hvMmlHcHpMOW8xRFpEUWFVNzJTaWYrVksYACAAKAAwtLW02K+XiQM4AEAAShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAADABOAA=",
+   "version": 1
+}

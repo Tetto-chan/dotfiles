@@ -1,0 +1,18 @@
+/* github.com/pahasara/dotFiles */
+
+@define-color background rgba(0, 0, 0, 0.0);
+@define-color bg-module rgba(0, 0, 0, 0.7); /* Затемненные фоны модулей */
+@define-color bg-tray rgba(0, 0, 0, 0.8);   /* Затемненные фоны для трея */
+
+@define-color foreground rgba(178, 102, 255, 1.0);  /* Светлый фиолетовый для иконок */
+@define-color fg-module rgba(255, 153, 204, 1.0);   /* Светло-розовый для текста модулей */
+@define-color fg-alt rgba(204, 0, 153, 1.0);        /* Ярко-розовый для альтернативного текста */
+@define-color fg-blink rgba(204, 102, 255, 1.0);    /* Фиолетовый для мигающего текста */
+@define-color fg-persist rgba(229, 204, 255, 1.0);  /* Светло-фиолетовый для постоянного текста */
+
+@define-color border rgba(178, 102, 255, 1);        /* Фиолетовые границы */
+@define-color border-module rgba(255, 153, 204, 1.0); /* Розовые границы модулей */
+@define-color border-alt rgba(153, 0, 153, 1.0);    /* Глубокий фиолетовый для альтернативных границ */
+
+@define-color separator rgba(229, 153, 255, 1.0);   /* Светло-фиолетовый для разделителей */
+

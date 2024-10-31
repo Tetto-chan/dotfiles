@@ -1,0 +1,25 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "alm1.vpntype.com",
+        "method": "aes-256-gcm",
+        "name": "VPNTYPE 🇰🇿 Almaty",
+        "pass": "2xfCsNRKJ5FbYcWG",
+        "port": 8388,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp"
+        },
+        "uot": 0
+    },
+    "gid": 0,
+    "id": 1,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "shadowsocks",
+    "yc": 0
+}

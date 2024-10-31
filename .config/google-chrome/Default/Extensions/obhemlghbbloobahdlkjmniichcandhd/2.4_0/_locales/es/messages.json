@@ -1,0 +1,35 @@
+{
+   "columns_count": {
+      "message": "Cuenta de columnas"
+   },
+   "description": {
+      "message": "Calculadora de tipo de cambio"
+   },
+   "flag": {
+      "message": "Bandera"
+   },
+   "label_type": {
+      "message": "Etiqueta de moneda"
+   },
+   "last": {
+      "message": "última cosa"
+   },
+   "name": {
+      "message": "Conversor de divisas sencillo"
+   },
+   "on_open": {
+      "message": "En la apertura"
+   },
+   "showing_currencies": {
+      "message": "Monedas mostradas:"
+   },
+   "sign": {
+      "message": "Firmar"
+   },
+   "text": {
+      "message": "Еexto"
+   },
+   "updated": {
+      "message": "Actual.: "
+   }
+}

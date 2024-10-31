@@ -1,0 +1,27 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="flag_10601035 1" clip-path="url(#clip0_79_1989)">
+<g id="layer1">
+<g id="Clip path group">
+<mask id="mask0_79_1989" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-1" y="0" width="21" height="21">
+<g id="clipPath3827">
+<path id="path3829" d="M20 10.002C20 12.6548 18.9462 15.1988 17.0705 17.0746C15.1947 18.9503 12.6507 20.0041 9.99796 20.0041C7.34525 20.0041 4.80119 18.9503 2.92544 17.0746C1.0497 15.1988 -0.00408936 12.6548 -0.00408936 10.002C-0.00408936 7.34934 1.0497 4.80528 2.92544 2.92953C4.80119 1.05378 7.34525 0 9.99796 0C12.6507 0 15.1947 1.05378 17.0705 2.92953C18.9462 4.80528 20 7.34934 20 10.002Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_79_1989)">
+<g id="g3022">
+<path id="rect3017" d="M0.000549316 0.000549316H20.002V20.002H0.000549316V0.000549316Z" fill="#2980B9"/>
+<g id="Group">
+<path id="rect3797" d="M20.0023 8.3345V11.6681L0.00086844 11.6681V8.3345L20.0023 8.3345Z" fill="#F1C40F"/>
+<path id="rect3028" d="M9.08215 20.002H5.74858V0.000591238H9.08215V20.002Z" fill="#F1C40F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_79_1989">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>

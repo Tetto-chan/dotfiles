@@ -1,0 +1,35 @@
+{
+   "columns_count": {
+      "message": "列数"
+   },
+   "description": {
+      "message": "汇率计算器"
+   },
+   "flag": {
+      "message": "旗帜"
+   },
+   "label_type": {
+      "message": "货币标签"
+   },
+   "last": {
+      "message": "最后"
+   },
+   "name": {
+      "message": "简单货币转换器"
+   },
+   "on_open": {
+      "message": "打开时"
+   },
+   "showing_currencies": {
+      "message": "显示的货币："
+   },
+   "sign": {
+      "message": "符号"
+   },
+   "text": {
+      "message": "文本"
+   },
+   "updated": {
+      "message": "更新："
+   }
+}

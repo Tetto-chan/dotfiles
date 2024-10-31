@@ -1,0 +1,35 @@
+{
+   "columns_count": {
+      "message": "Liczba kolumn"
+   },
+   "description": {
+      "message": "Kalkulator kursów walut"
+   },
+   "flag": {
+      "message": "Flaga"
+   },
+   "label_type": {
+      "message": "Etykieta waluty"
+   },
+   "last": {
+      "message": "ostatni"
+   },
+   "name": {
+      "message": "Prosty przelicznik walut"
+   },
+   "on_open": {
+      "message": "Przy otwarciu"
+   },
+   "showing_currencies": {
+      "message": "Wyświetlane waluty:"
+   },
+   "sign": {
+      "message": "Znak"
+   },
+   "text": {
+      "message": "Tekst"
+   },
+   "updated": {
+      "message": "Zaktualizowano: "
+   }
+}

@@ -157,9 +157,9 @@
         "spacing": 10
     },
     "clock": {
-        // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+        "format-alt": "{:%Y-%m-%d}",
+        "timezone": "Asia/Krasnoyarsk"
     },
     "cpu": {
         "format": "{usage}% ",
@@ -236,7 +236,7 @@
             "car": "",
             "default": ["", "", ""]
         },
-        "on-click": "pavucontrol"
+        "on-click": "GTK_THEME=Viola-Dark-GTK pavucontrol"
     },
     "custom/media": {
         "format": "{icon} {}",

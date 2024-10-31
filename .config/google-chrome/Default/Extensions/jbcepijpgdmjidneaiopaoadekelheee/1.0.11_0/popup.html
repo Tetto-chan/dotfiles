@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VPNType</title>
+        <link rel="stylesheet" type="text/css" href="css/popup.css"/>
+        <link rel="stylesheet" type="text/css" href="css/custom-selector.css"/>
+        <meta charset="utf-8">
+    </head>
+    <body>
+      <div class="screen-wrapper">
+        <div id="main" class="screen-item">
+          <div class="header main-header">
+            <span class="premium"><img src="img/svg/fire.svg"> Premium</span>
+            <span class="close-selector"><img src="/img/svg/left-arrow.svg"></span>
+            <div class="main-header-title">
+              <span class="brand-name"><img src="/img/svg/logo.svg"></span>
+            </div>
+            <div class="main-header-action">
+              <button class="nav-action" data-target-id="menu"></button>
+            </div>
+          </div>
+          <div class="main-body">
+
+            <div class="country-selector-wrapper">
+              <select id="server-list" style="display:none">
+
+              </select>
+            </div>
+            <div class="main-action-wrapper">
+              <div class="main-action-get-ip">
+                <span data-locale="definition_ip">Definition of your IP...</span>
+                <span data-locale="your_ip" class="detected-ip">Your IP:</span>
+                <span id="client-ip" class="detected-ip"></span>
+              </div>
+              <button id="connector" class="main-action-button">
+                <span class="animation"></span>
+                <span class="icon"></span>
+              </button>
+              <div class="main-action-status">
+                <div class="main-action-status__title" data-locale="connected">Connected</div>
+                <div class="main-action-status__timer">00:00:00</div>
+              </div>
+              <div class="main-action-caption main-action-caption--connect" data-locale="click_to_connect">Click to connect</div>
+              <div class="main-action-caption main-action-caption--disconnect" data-locale="click_to_disconnect">Click to disconnect</div>
+              <div class="main-action-split-tunneling">
+                <img src="/img/svg/check.svg">
+                <div data-locale="split_tunneling_active">Websites settings applied</div>
+              </div>
+            </div>
+          </div>
+          <div class="main-footer">
+
+            <a class="user-site-action get-premium-banner advertising-banner" href="#user-area">
+              <img src="/img/svg/getpremium-banner-img.svg">
+              <div class="get-premium-banner__text">
+                <span data-locale="upgrade_to_premium">Upgrade to Premium</span><br>
+                <span data-locale="get_unlimited_access">Get access to the fastest servers</span>
+              </div>
+            </a>
+
+            <a class="user-site-action all-devices-banner advertising-banner" href="#">
+              <div class="all-devices-banner__container">
+                <div class="all-devices-banner-top">
+                  <img src="/img/svg/logo-banner.svg">
+                  <span data-locale="user_for_all_devices">use for all devices</span>
+                </div>
+                <button data-locale="install_for_all_devices">Install VPNTYPE</button>
+              </div>
+            </a>
+
+          </div>
+        </div>
+
+        <div id="menu" class="screen-item">
+          <div class="header menu-header">
+            <div class="menu-header-title" data-locale="extension_brand_title">Vpntype Free Browser Extension</div>
+            <div class="menu-header-action">
+              <button class="nav-action nav-action--close" data-target-id="main"></button>
+            </div>
+          </div>
+          <div class="menu-body">
+            <div class="menu-body__container">
+              <ul class="menu-body__list">
+                <li><a href="#user-area" class="user-site-action"><img src="img/svg/user.svg"> <span id="username">User area</span></a></li>
+                <li><a href="#about" class="user-site-action"><img src="img/svg/info.svg"> <span data-locale="about">About</span></a></li>
+                <li><a href="#settings" class="user-site-action"><img src="img/svg/gear.svg"> <span data-locale="settings">Setting</span></a></li>
+                <li><a href="#contacts" class="user-site-action"><img src="img/svg/support.svg">  <span data-locale="support">Support</span></a></li>
+                <li><a href="#user-area" class="user-site-action"><img src="img/svg/star.svg">  <span data-locale="subscription">Subscription manage</span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="menu-footer">
+
+            ID: <span id="uid"></span><a class="copy-uid" href="#"><span class="tooltip" data-locale="copied">Copied</span><img src="/img/svg/copy.svg"></a>
+          </div>
+        </div>
+
+        <div id="settings" class="screen-item">
+          <div class="header settings-header">
+            <div class="menu-header-action menu-header-action--left">
+              <button class="nav-action nav-action--back" data-target-id="menu"></button>
+            </div>
+            <div class="settings-header__title" data-locale="settings">Website settings</div>
+          </div>
+          <div class="settings-body">
+            <div class="settings__split-tunneling-mode">
+              <div>
+                <label>
+                  <input type="radio" name="proxy_mode" value="off"><span data-locale="split_tunneling_off">All</span>
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input type="radio" name="proxy_mode" value="except"><span data-locale="split_tunneling_except">Don’t proxy selected websites</span>
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input type="radio" name="proxy_mode" value="selected"><span data-locale="split_tunneling_selected">Proxy only selected websites</span>
+                </label>
+              </div>
+            </div>
+            <div class="settings__split-tunneling-list" style="display: none">
+              <div class="settings__split-tunneling-list-title" data-locale="split_tunneling_websites">Websites</div>
+              <div class="input-wrap">
+                <input type="text" name="url" id="url" placeholder="example.com OR *.example.com" autocomplete="off">
+                <a href="#" id="add-url"><img src="img/svg/plus.svg"></a>
+              </div>
+              <div id="website-presets">
+
+              </div>
+              <ul id="url-list">
+
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="blocked" class="screen-item">
+          <div class="header main-header">
+            <span class="premium"><img src="img/svg/fire.svg"> Premium</span>
+            <div class="main-header-title">
+              <span class="brand-name"><img src="/img/svg/logo.svg"></span>
+            </div>
+            <div class="main-header-action">
+              <button class="nav-action" data-target-id="menu"></button>
+            </div>
+          </div>
+          <div class="main-body">
+            <div class="blocked-by-another-extension">
+              <div class="blocked-by-another-extension__banner"><img src="img/svg/blocked.svg"></div>
+              <div class="blocked-by-another-extension__text" data-locale="another_extension_controls_proxy">
+                Vpntype cannot work because another extension in controlling your proxy setting.
+                <br>
+                <br>
+                Please disable other extensions that you think might control your proxy settings such as ad-blockers, other VPN services, etc.
+              </div>
+            </div>
+          </div>
+          <div class="main-footer">
+            <button id="disable-extensions" class="disable-other-extensions-button" href="#user-area" data-locale="disable_other_extensions">Disable other extensions</button>
+          </div>
+        </div>
+        <div class="screen-modal" id="modal">
+          <div class="screen-modal-rate-us">
+            <div class="screen-modal-rate-us__top-line"><button class="screen-modal-close rate-app" data-rate="0"></button></div>
+            <div class="screen-modal-rate-us__question" data-locale="do_you_like">Do you like vpntype?</div>
+            <div class="screen-modal-rate-us__items">
+              <ul>
+                <li data-rate="1" class="rate-app">&#128545</li>
+                <li data-rate="2" class="rate-app">&#128549</li>
+                <li data-rate="3" class="rate-app">&#128528</li>
+                <li data-rate="4" class="rate-app">&#128578</li>
+                <li data-rate="5" class="rate-app">&#129392</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="js/app.js"></script>
+      <script src="js/custom-selector.js"></script>
+      <script src="js/lottie.min.js"></script>
+      <script src="js/popup.js"></script>
+    </body>
+</html>

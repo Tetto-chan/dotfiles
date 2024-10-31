@@ -1,0 +1,8 @@
+[General]
+ColorScheme=ViolaDarkColorScheme
+
+[Icons]
+Theme=Azure-Dark-Icons
+
+[KDE]
+widgetStyle=Breeze

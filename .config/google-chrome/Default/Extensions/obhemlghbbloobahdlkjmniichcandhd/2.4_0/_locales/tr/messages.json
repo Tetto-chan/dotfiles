@@ -1,0 +1,35 @@
+{
+   "columns_count": {
+      "message": "Sütun sayısı"
+   },
+   "description": {
+      "message": "Döviz kuru hesaplayıcı"
+   },
+   "flag": {
+      "message": "Bayrak"
+   },
+   "label_type": {
+      "message": "Para birimi etiketi"
+   },
+   "last": {
+      "message": "son"
+   },
+   "name": {
+      "message": "Basit döviz çevirici"
+   },
+   "on_open": {
+      "message": "Açıldığında"
+   },
+   "showing_currencies": {
+      "message": "Gösterilen para birimleri:"
+   },
+   "sign": {
+      "message": "Sembol"
+   },
+   "text": {
+      "message": "Metin"
+   },
+   "updated": {
+      "message": "Güncellendi: "
+   }
+}

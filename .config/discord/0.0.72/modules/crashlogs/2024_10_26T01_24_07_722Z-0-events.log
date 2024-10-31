@@ -1,0 +1,81 @@
+2024-10-26T01:24:07.758Z 0: 
+
+----------------------------------------------
+2024-10-26T01:24:07.812Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.72"}, modulepath: /home/tetto/.config/discord/0.0.72/modules
+2024-10-26T01:24:07.836Z 2: ✅ webContents.created web1 ""
+2024-10-26T01:24:07.856Z 3: ✅ window.created win1 "discord"
+2024-10-26T01:24:08.909Z 4: ✅ webContents.did-finish-load web1
+2024-10-26T01:24:45.558Z 5: ✅ webContents.created web2 ""
+2024-10-26T01:24:45.588Z 6: ✅ window.created win2 "Discord"
+2024-10-26T01:24:53.810Z 7: ✅ webContents.did-finish-load web2
+2024-10-26T01:24:53.922Z 8: window.close win1
+2024-10-26T01:24:54.594Z 9: webContents.destroyed web1
+2024-10-26T01:24:54.605Z 10: window.closed win1
+2024-10-26T12:03:24.506Z 0: 
+
+----------------------------------------------
+2024-10-26T12:03:24.631Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.72"}, modulepath: /home/tetto/.config/discord/0.0.72/modules
+2024-10-26T12:03:24.670Z 2: ✅ webContents.created web1 "index.html"
+2024-10-26T12:03:24.678Z 3: ✅ window.created win1 "discord"
+2024-10-26T12:03:25.577Z 4: ✅ webContents.did-finish-load web1
+2024-10-26T12:03:35.355Z 5: ✅ webContents.created web2 ""
+2024-10-26T12:03:35.399Z 6: ✅ window.created win2 "Discord"
+2024-10-26T12:03:48.799Z 7: ✅ webContents.did-finish-load web2
+2024-10-26T12:03:48.940Z 8: window.close win1
+2024-10-26T12:03:49.355Z 9: webContents.destroyed web1
+2024-10-26T12:03:49.380Z 10: window.closed win1
+2024-10-26T15:03:00.917Z 11: ✅ webContents.did-finish-load web2
+2024-10-26T19:30:55.839Z 12: before-quit
+2024-10-27T13:21:24.440Z 0: 
+
+----------------------------------------------
+2024-10-27T13:21:24.478Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.72"}, modulepath: /home/tetto/.config/discord/0.0.72/modules
+2024-10-27T13:21:24.489Z 2: ✅ webContents.created web1 ""
+2024-10-27T13:21:24.492Z 3: ✅ window.created win1 "discord"
+2024-10-27T13:21:24.907Z 4: ✅ webContents.did-finish-load web1
+2024-10-27T13:21:25.586Z 5: ✅ webContents.created web2 ""
+2024-10-27T13:21:25.608Z 6: ✅ window.created win2 "Discord"
+2024-10-27T13:21:32.615Z 7: ✅ webContents.did-finish-load web2
+2024-10-27T13:21:32.756Z 8: window.close win1
+2024-10-27T13:21:33.101Z 9: webContents.destroyed web1
+2024-10-27T13:21:33.153Z 10: window.closed win1
+2024-10-27T16:26:10.592Z 11: before-quit
+2024-10-28T12:08:33.259Z 0: 
+
+----------------------------------------------
+2024-10-28T12:08:33.351Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.72"}, modulepath: /home/tetto/.config/discord/0.0.72/modules
+2024-10-28T12:08:33.369Z 2: ✅ webContents.created web1 ""
+2024-10-28T12:08:33.377Z 3: ✅ window.created win1 "discord"
+2024-10-28T12:08:34.552Z 4: ✅ webContents.did-finish-load web1
+2024-10-28T12:08:35.395Z 5: ✅ webContents.created web2 ""
+2024-10-28T12:08:35.411Z 6: ✅ window.created win2 "Discord"
+2024-10-28T12:08:44.721Z 7: ✅ webContents.did-finish-load web2
+2024-10-28T12:08:44.827Z 8: window.close win1
+2024-10-28T12:08:45.441Z 9: webContents.destroyed web1
+2024-10-28T12:08:45.461Z 10: window.closed win1
+2024-10-29T08:36:39.580Z 0: 
+
+----------------------------------------------
+2024-10-29T08:36:39.752Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.72"}, modulepath: /home/tetto/.config/discord/0.0.72/modules
+2024-10-29T08:36:39.807Z 2: ✅ webContents.created web1 ""
+2024-10-29T08:36:39.826Z 3: ✅ window.created win1 "discord"
+2024-10-29T08:36:42.744Z 4: ✅ webContents.did-finish-load web1
+2024-10-29T08:36:59.496Z 5: window.close win1
+2024-10-29T08:36:59.692Z 6: webContents.destroyed web1
+2024-10-30T01:11:16.401Z 0: 
+
+----------------------------------------------
+2024-10-30T01:11:16.471Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.72"}, modulepath: /home/tetto/.config/discord/0.0.72/modules
+2024-10-30T01:11:16.477Z 2: ✅ webContents.created web1 ""
+2024-10-30T01:11:16.492Z 3: ✅ window.created win1 "discord"
+2024-10-30T01:11:17.570Z 4: ✅ webContents.did-finish-load web1
+2024-10-30T01:11:22.258Z 5: window.close win1
+2024-10-30T01:11:22.405Z 6: webContents.destroyed web1
+2024-10-30T08:42:47.871Z 0: 
+
+----------------------------------------------
+2024-10-30T08:42:47.924Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.72"}, modulepath: /home/tetto/.config/discord/0.0.72/modules
+2024-10-30T08:42:47.930Z 2: ✅ webContents.created web1 ""
+2024-10-30T08:42:47.933Z 3: ✅ window.created win1 "discord"
+2024-10-30T08:42:48.600Z 4: ✅ webContents.did-finish-load web1
+2024-10-30T08:43:04.062Z 5: window.close win1

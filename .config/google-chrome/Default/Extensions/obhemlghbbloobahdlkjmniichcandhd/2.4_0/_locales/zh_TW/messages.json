@@ -1,0 +1,35 @@
+{
+   "columns_count": {
+      "message": "列數"
+   },
+   "description": {
+      "message": "匯率計算器"
+   },
+   "flag": {
+      "message": "旗幟"
+   },
+   "label_type": {
+      "message": "貨幣標籤"
+   },
+   "last": {
+      "message": "最後"
+   },
+   "name": {
+      "message": "簡單貨幣轉換器"
+   },
+   "on_open": {
+      "message": "打開時"
+   },
+   "showing_currencies": {
+      "message": "顯示的貨幣："
+   },
+   "sign": {
+      "message": "符號"
+   },
+   "text": {
+      "message": "文字"
+   },
+   "updated": {
+      "message": "更新："
+   }
+}

@@ -1,0 +1,13 @@
+#contents {
+  justify-content: flex-start !important;
+}
+
+#contents > ytd-rich-grid-row,
+#contents > ytd-rich-grid-row > #contents {
+  display: contents;
+}
+
+#contents > ytd-rich-grid-row > #contents > ytd-rich-item-renderer {
+  margin-bottom: 18px;
+  margin-top: 18px;
+}

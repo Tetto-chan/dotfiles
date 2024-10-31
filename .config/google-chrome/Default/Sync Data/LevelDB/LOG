@@ -1,0 +1,15 @@
+2024/10/30-20:51:58.597 f90 Reusing MANIFEST /home/tetto/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/10/30-20:51:58.628 f90 Recovering log #25
+2024/10/30-20:51:58.639 f90 Reusing old log /home/tetto/.config/google-chrome/Default/Sync Data/LevelDB/000025.log 
+2024/10/30-21:07:54.246 f8f Level-0 table #29: started
+2024/10/30-21:07:54.259 f8f Level-0 table #29: 101316 bytes OK
+2024/10/30-21:07:54.261 f8f Delete type=0 #25
+2024/10/30-21:07:54.265 f8f Compacting 4@0 + 1@1 files
+2024/10/30-21:07:54.281 f8f Generated table #30@0: 84 keys, 13804 bytes
+2024/10/30-21:07:54.281 f8f Compacted 4@0 + 1@1 files => 13804 bytes
+2024/10/30-21:07:54.283 f8f compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/10/30-21:07:54.283 f8f Delete type=2 #29
+2024/10/30-21:07:54.283 f8f Delete type=2 #23
+2024/10/30-21:07:54.283 f8f Delete type=2 #18
+2024/10/30-21:07:54.283 f8f Delete type=2 #26
+2024/10/30-21:07:54.283 f8f Delete type=2 #20

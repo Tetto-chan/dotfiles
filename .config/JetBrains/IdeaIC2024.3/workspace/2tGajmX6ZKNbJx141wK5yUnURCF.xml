@@ -1,0 +1,565 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="MyApp" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="1bbaivay8ry1z" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="609">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"pom.xml (demo)","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,88,10,31,105,99,111,110,115,47,114,101,112,111,115,105,116,111,114,121,76,105,98,114,97,114,121,76,111,103,111,46,115,118,103,18,21,105,99,111,110,115,47,101,120,112,117,105,47,109,97,118,101,110,46,115,118,103,26,17,99,111,109,46,105,110,116,101,108,108,105,106,46,106,97,118,97,40,-81,-67,-81,-7,-5,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="231">
+              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"application.yaml","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,67,10,18,102,105,108,101,84,121,112,101,115,47,121,97,109,108,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,121,97,109,108,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-72,-60,-59,56,48,0]}]]></tab>
+      </file>
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mercore/Main.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="210">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Main.java","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="jrt:///usr/lib/jvm/java-21-openjdk!/java.base/sun/security/util/PolicyUtil.class">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="525">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"PolicyUtil.class","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "JAVA": {
+      "usageCount": 118,
+      "lastUsed": 1741783761769
+    },
+    "XML": {
+      "usageCount": 13,
+      "lastUsed": 1741783761449
+    },
+    "YAML": {
+      "usageCount": 9,
+      "lastUsed": 1741783761406
+    },
+    "CLASS": {
+      "usageCount": 11,
+      "lastUsed": 1741783766212
+    },
+    "Properties": {
+      "usageCount": 7,
+      "lastUsed": 1740753124144
+    }
+  }
+}]]></component>
+  <component name="GitSEFilterConfiguration">{}</component>
+  <component name="IdeDocumentHistory">{
+  &quot;changedPaths&quot;: [
+    &quot;/home/tetto/IdeaProjects/MyApp/src/main/java/com/mercore/dto/GptRequest.java&quot;,
+    &quot;/home/tetto/IdeaProjects/MyApp/src/main/java/com/mercore/client/OpenAiClient.java&quot;,
+    &quot;/home/tetto/IdeaProjects/MyApp/src/main/java/com/mercore/dto/GptResponse.java&quot;,
+    &quot;/home/tetto/IdeaProjects/MyApp/src/main/java/com/mercore/dto/Question.java&quot;,
+    &quot;/home/tetto/IdeaProjects/MyApp/src/main/java/com/mercore/dto/Transcription.java&quot;,
+    &quot;/home/tetto/IdeaProjects/MyApp/src/main/java/com/mercore/config/TelegramConfig.java&quot;,
+    &quot;/home/tetto/IdeaProjects/MyApp/src/main/java/com/mercore/config/WebConfig.java&quot;,
+    &quot;/home/tetto/IdeaProjects/MyApp/src/main/java/com/mercore/repository/InterviewRepository.java&quot;,
+    &quot;/home/tetto/IdeaProjects/MyApp/src/main/java/com/mercore/repository/TopicRepository.java&quot;,
+    &quot;/home/tetto/IdeaProjects/MyApp/src/main/java/com/mercore/service/Command.java&quot;,
+    &quot;/home/tetto/IdeaProjects/MyApp/src/main/java/com/mercore/service/StartCommand.java&quot;,
+    &quot;/home/tetto/IdeaProjects/MyApp/src/main/java/com/mercore/service/VoiceCommand.java&quot;,
+    &quot;/home/tetto/IdeaProjects/MyApp/src/main/java/com/mercore/telegram/Bot.java&quot;,
+    &quot;/home/tetto/IdeaProjects/MyApp/src/main/resources/application.yaml&quot;,
+    &quot;/home/tetto/IdeaProjects/MyApp/pom.xml&quot;,
+    &quot;/home/tetto/IdeaProjects/MyApp/src/main/resources/application.properties&quot;,
+    &quot;/home/tetto/IdeaProjects/MyApp/src/main/java/com/mercore/InterviewBotApplication.java&quot;,
+    &quot;/home/tetto/IdeaProjects/MyApp/src/main/java/com/mercore/Main.java&quot;
+  ]
+}</component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="118" lastUsage="1741783761769" />
+    </language>
+    <language id="Properties">
+      <summary usageCount="7" lastUsage="1740753124144" />
+    </language>
+    <language id="XML">
+      <summary usageCount="13" lastUsage="1741783761451" />
+    </language>
+    <language id="yaml">
+      <summary usageCount="9" lastUsage="1741783761424" />
+    </language>
+  </component>
+  <component name="MavenProjectNavigator">
+    <option name="groupStructurally" value="true" />
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="MyApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MyApp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="MyApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MyApp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MyApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MyApp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MyApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MyApp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MyApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MyApp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MyApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MyApp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mercore" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MyApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="MyApp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/runConfigurations/application.svg" iconPlugin="com.intellij" isLeaf="false" text="MyApp" />
+            <item name="MyApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="" />
+              <item name="MyApp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.idea" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".idea" />
+                <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/src" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/src/main" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="main" />
+                  <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/main/java" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="java" />
+                    <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/main/java/com" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="com" />
+                      <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/src/main/java/com/mercore" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="mercore" />
+                        <item name="mercore" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/src/main/java/com/mercore/Main.java" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="Main" />
+                          <item name="Main" type="1a9f42e2:ClassTreeNode" />
+                        </presentation>
+                      </presentation>
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/main/resources" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/resourcesRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="resources" />
+                    <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/main/resources/application.yaml" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/fileTypes/yaml.svg" iconPlugin="com.intellij" isLeaf="true" text="application.yaml" />
+                      <item name="application.yaml" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/src/test" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="test" />
+                  <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/target" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="target" />
+                <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gitignore" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/ignored.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
+                <item name=".gitignore" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/pom.xml" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/maven.svg" iconPlugin="com.intellij.java" isLeaf="true" text="pom.xml" />
+                <item name="pom.xml" type="ab9368bb:PsiFileNode" />
+              </presentation>
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$" commandHistoryFileName="MyApp-history">
+        <shellCommand>
+          <arg value="/usr/bin/bash" />
+          <arg value="-i" />
+        </shellCommand>
+      </TerminalTabState>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.50053537" visible="true" weight="0.2838486" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" sideWeight="0.49946466" side_tool="true" weight="0.2838486" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.33151093" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.3752485" />
+      <window_info anchor="bottom" id="Services" order="5" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.33151093" />
+      <window_info anchor="bottom" id="Find" order="7" show_stripe_button="false" weight="0.32952285" />
+      <window_info anchor="bottom" id="Debug" order="8" visible="true" weight="0.89910537" />
+      <window_info anchor="right" id="Notifications" order="0" weight="0.33029002" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info active="true" anchor="right" id="ChatGPT" order="5" visible="true" weight="0.3302239" />
+      <window_info active="true" anchor="right" id="EasyCode" order="6" visible="true" weight="0.3302239" />
+      <unified_weights bottom="0.32952285" left="0.2838486" right="0.3302239" />
+    </layoutV2>
+    <recentWindows>
+      <value>EasyCode</value>
+      <value>Project</value>
+      <value>Find</value>
+      <value>Run</value>
+      <value>ChatGPT</value>
+      <value>Structure</value>
+      <value>Debug</value>
+      <value>Terminal</value>
+      <value>Build</value>
+      <value>Notifications</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1027" y="197" width="800" height="686" key="#Plugins" timestamp="1740645496301">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1027" y="197" width="800" height="686" key="#Plugins/0.0.1920.1080@0.0.1920.1080" timestamp="1740645496301" />
+    <state x="896" y="145" key="#Project_Structure" timestamp="1740645427407">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="896" y="145" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1740645427407" />
+    <state x="1245" y="284" key="#com.intellij.ide.util.MemberChooser" timestamp="1740643594181">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1245" y="284" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1740643594181" />
+    <state width="1794" height="335" key="GridCell.Tab.0.bottom" timestamp="1740754309636">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1794" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1740754309636" />
+    <state width="1794" height="335" key="GridCell.Tab.0.center" timestamp="1740754309636">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1794" height="335" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1740754309636" />
+    <state width="1794" height="335" key="GridCell.Tab.0.left" timestamp="1740754309636">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1794" height="335" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1740754309636" />
+    <state width="1794" height="335" key="GridCell.Tab.0.right" timestamp="1740754309636">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1794" height="335" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1740754309636" />
+    <state width="849" height="291" key="GridCell.Tab.1.bottom" timestamp="1740652336815">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="849" height="291" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1740652336815" />
+    <state width="849" height="291" key="GridCell.Tab.1.center" timestamp="1740652336815">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="849" height="291" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1740652336815" />
+    <state width="849" height="291" key="GridCell.Tab.1.left" timestamp="1740652336815">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="849" height="291" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1740652336815" />
+    <state width="849" height="291" key="GridCell.Tab.1.right" timestamp="1740652336815">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="849" height="291" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1740652336815" />
+    <state x="677" y="144" width="1012" height="730" key="SettingsEditor" timestamp="1741784707069">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="677" y="144" width="1012" height="730" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1741784707069" />
+    <state x="747" y="263" width="1173" height="687" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1740648580429">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="747" y="263" width="1173" height="687" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1080@0.0.1920.1080" timestamp="1740648580429" />
+    <state x="560" y="201" width="800" height="708" key="new project wizard" timestamp="1740129774941">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="201" width="800" height="708" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1740129774941" />
+    <state x="623" y="261" width="672" height="696" key="search.everywhere.popup" timestamp="1740751791580">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="261" width="672" height="696" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1740751791580" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/6.0.2/spring-context-6.0.2.jar!/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="834">
+          <caret line="320" column="3" selection-start-line="320" selection-start-column="3" selection-end-line="320" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercore/dto/GptResponse.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercore/client/OpenAiClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercore/config/WebConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercore/repository/TopicRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercore/service/Command.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercore/service/StartCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercore/dto/Question.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercore/config/TelegramConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercore/dto/GptRequest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercore/service/VoiceCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercore/telegram/Bot.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercore/dto/Transcription.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercore/repository/InterviewRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercore/InterviewBotApplication.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercore/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-21-openjdk!/java.base/sun/security/util/PolicyUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>21</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MyApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.4.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

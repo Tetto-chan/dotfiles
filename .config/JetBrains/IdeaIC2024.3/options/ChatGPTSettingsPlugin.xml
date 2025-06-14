@@ -1,0 +1,9 @@
+<application>
+  <component name="com.obiscr.chatgpt.settings.OpenAISettingsState">
+    <option name="easyCodeAccessToken" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxNzg0Nzg2LCJpYXQiOjE3NDE2NTA0NTYsImp0aSI6ImU0ODIzNTE0NmQwNDQ0NWE5Njk1MjZjYTYzZmE1MDAyIiwidXNlcl9pZCI6NzY5ODg2fQ.kCLSFbNKR8-rqDPSgtHq4jVXfrMBNLjdP86iB3Ei58Q" />
+    <option name="easyCodeRefreshToken" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0Mjk5MzQ4NiwiaWF0IjoxNzQxNzgzODg2LCJqdGkiOiI2ZmMzODljZGI0N2Q0ZWQ1OWI4NDIwYTBhMjZkNWU0NCIsInVzZXJfaWQiOjc2OTg4Nn0.y_8NLJXM3HwP0uEpZlffQRN9UqFPk8x1IdvPmnyMNBA" />
+    <option name="easyCodeUserEmail" value="2000nazarbro@gmail.com" />
+    <option name="easyCodeModel" value="gpt-4o" />
+    <option name="easyCodeHistoryConversationModel" />
+  </component>
+</application>

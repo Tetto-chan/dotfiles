@@ -1,0 +1,7 @@
+use_relative_paths=true
+address=192.168.42.77
+enable_auth=true
+username=tetto
+password=
+rsa_private_key_file=rsa_key.pem
+
